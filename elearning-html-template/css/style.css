@@ -433,3 +433,13 @@
     padding-right: 0;
     border-right: none;
 }
+
+
+.c-img{
+    width: 40px;
+    height: 40px;
+}
+
+.c-img {
+    fill: rgb(25, 0, 255);
+}
