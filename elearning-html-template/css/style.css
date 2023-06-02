@@ -435,11 +435,12 @@
 }
 
 
-.c-img{
-    width: 40px;
-    height: 40px;
+.c-imaging{
+    width: 100%;
+    clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
+    transition: 0.5s ease;
 }
 
-.c-img {
-    fill: rgb(25, 0, 255);
+.c-imaging:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
