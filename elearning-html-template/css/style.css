@@ -438,14 +438,14 @@
 .c-imaging{
     width: 100%;
     clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
-    transition: 0.3s ease;
-    z-index: 1;
+    transition: 0.3s;
+    z-index: 0.5s;
 }
 
 .c-imaging:hover{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    z-index: 3;
 }
+
 
 .c-imaging-2{
     z-index: 0;
@@ -454,13 +454,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .c-imaging-2:hover{
+    z-index:2;
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%);
-    z-index: 2;
 }
+
 
 .c-1{
     position: relative;
