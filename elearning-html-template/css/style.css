@@ -436,6 +436,9 @@
 
 
 .c-imaging{
+    position:absolute;
+    top:0%;
+    left:0%;
     width: 100%;
     clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
     transition: 0.3s;
@@ -448,8 +451,10 @@
 
 
 .c-imaging-2{
+    background-color: blue;
     z-index: 0;
     width: 100%;
+    padding-bottom: 0%;
     clip-path: polygon(30% 100%, 70% 0%, 100% 0%, 100% 100%);
     position: absolute;
     top: 0;
@@ -462,7 +467,30 @@
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%);
 }
 
+.c-img-2{
+    width:100%
+}
+
+.c-img{
+    width:100%
+}
 
 .c-1{
+    padding-bottom: 66%;
     position: relative;
+}
+
+.b-box{
+    position: absolute;
+    top:100%;
+    left:0%;
+    width:100%;
+    height:70%;
+    background-color: yellow;
+    z-index: 5;
+}
+
+.c-imaging-2:hover .b-box{
+    transition:0.5s;
+    top:15%;
 }
