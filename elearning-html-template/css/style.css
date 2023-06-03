@@ -440,6 +440,7 @@
     top:0%;
     left:0%;
     width: 100%;
+    padding-bottom: 0%;
     clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
     transition: 0.3s;
     z-index: 0.5s;
@@ -491,6 +492,21 @@
 }
 
 .c-imaging-2:hover .b-box{
+    transition:0.5s;
+    top:15%;
+}
+
+.b-box-2{
+    position: absolute;
+    top:100%;
+    left:0%;
+    width:100%;
+    height:70%;
+    background-color: rgb(36, 34, 206);
+    z-index: 5;
+}
+
+.c-imaging:hover .b-box-2{
     transition:0.5s;
     top:15%;
 }
