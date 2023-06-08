@@ -586,3 +586,13 @@
 .cb4{
     background-color: rgb(17, 148, 67);
 }
+
+.menu-box{
+    height:1000px;
+    width:150px;
+    background-color: #06135e;
+}
+
+.menu-list{
+    list-style-type: none;
+}
