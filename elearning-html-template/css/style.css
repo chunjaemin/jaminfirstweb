@@ -560,3 +560,29 @@
     color: #181d38;
     z-index: 1;
 }
+
+.c-2{
+    background-color: yellow;
+    width: 100%;
+}
+
+.c-2-box{
+    width: 100%;
+    aspect-ratio: 1/0.5;
+}
+
+.cb1{
+    background-color: rgb(246, 249, 206);
+}
+
+.cb2{
+    background-color: rgb(70, 81, 168);
+}
+
+.cb3{
+    background-color: rgb(230, 130, 29);
+}
+
+.cb4{
+    background-color: rgb(17, 148, 67);
+}
