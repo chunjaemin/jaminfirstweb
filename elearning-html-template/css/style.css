@@ -441,41 +441,13 @@
     left:0%;
     width: 100%;
     height: 100%;
-    clip-path: polygon(0 0, 70% 0, 30% 100%, 30% 100%,0% 100%);
-    transition: clip-path 0.3s;
     z-index: 0;
-}
-
-.c-imaging:hover{
-    clip-path: polygon(0 0, 100% 0%, 100% 50%, 80% 100%, 0% 100%);
-}
-
-
-.c-imaging-2{
-    background-color: blue;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    clip-path: polygon(30% 100%, 70% 0%, 70% 0%, 100% 0%, 100% 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.3s;
-}
-
-.c-imaging-2:hover{
-    z-index:2;
-    clip-path: polygon(0% 100%, 0% 50%, 20% 0%, 100% 0%, 100% 100%)
-}
-
-.c-img-2{
-    width:100%;
-    height:100%;
 }
 
 .c-img{
     width:100%;
     height:100%;
+    filter: brightness(0.5)
 }
 
 .c-1{
@@ -485,80 +457,49 @@
     background-color: #308135;
 }
 
-.b-box{
-    position: absolute;
-    top:100%;
-    left:5%;
-    width:90%;
-    height:80%;
-    background-color: rgb(123, 123, 123);
-    z-index: 5;
-    display:flex;
-    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.5);
-}
-
-.c-imaging-2:hover .b-box{
-    transition:0.5s;
-    top:5%;
-}
-
-.c-imaging-2:hover .c-img-2{
-    filter: brightness(0.5)
-}
-
 .b-box-2{
     position: absolute;
-    top:100%;
+    top:5%;
     left:5%;
     width:90%;
     height:80%;
     z-index: 5;
+    box-shadow: 15px 20px 20px rgba(10, 10, 10, 0.5);
     display:flex;
-    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.5);
 }
 
-.c-imaging:hover .b-box-2{
-    transition:0.5s;
-    top:5%;
-}
-
-.c-imaging:hover .c-img{
-    filter: brightness(0.5)
-}
-
-.bb-box{
+.main-menu{
     position: relative;
     width: 25%;
     height: 100%;
-    background-color: rgb(123, 123, 123);
-    border-style: solid;
-    border-width: 1px;
-}
-
-.bb-box-2{
-    position: relative;
-    width: 25%;
-    height: 100%;
-    background-color: rgb(123, 123, 123);
-    border-style: solid;
-    border-width: 1px;
-}
-
-.b-img{
-    position:absolute;
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-    opacity: 0.5;
+    border: 1px black solid;
+    color:#FFFFFF
 }
 
 .b-menu{
     position: absolute;
     top:40%;
     left:13%;
-    font-size: 2.5em;
-    color: #181d38;
+    font-size: 4vw;
+    font-weight: 700;
     z-index: 1;
+}
+
+.m1{
+    color:#181d38;
+    background-color:rgb(246, 249, 206);
+}
+
+.m2{
+    background-color: rgb(70, 81, 168);
+}
+
+.m3{
+    background-color: rgb(230, 130, 29);
+}
+
+.m4{
+    background-color: rgb(17, 148, 67);
 }
 
 .c-2{
