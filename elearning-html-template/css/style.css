@@ -466,6 +466,7 @@
     z-index: 5;
     box-shadow: 15px 20px 20px rgba(10, 10, 10, 0.5);
     display:flex;
+    cursor: pointer;
 }
 
 .main-menu{
@@ -474,6 +475,14 @@
     height: 100%;
     border: 1px black solid;
     color:#FFFFFF
+}
+
+.main-menu:hover{
+    filter: brightness(0.7)
+}
+
+.dark{
+    filter: brightness(0.7)
 }
 
 .b-menu{
@@ -508,8 +517,12 @@
 }
 
 .c-2-box{
+    position: relative;
     width: 100%;
     aspect-ratio: 1/0.5;
+    font-size: 11vw;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .cb1{
@@ -526,6 +539,17 @@
 
 .cb4{
     background-color: rgb(17, 148, 67);
+}
+
+.p-menu{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+}
+
+.pp1{
+    color:#181d38;
 }
 
 .menu-box{
