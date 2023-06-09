@@ -581,10 +581,27 @@
 }
 
 .menu-list{
+    position:relative;
     width:100%;
     aspect-ratio: 1/0.3;
     background-color: #334ad0;
     border: 1px black solid;
+}
+
+.p-menu{
+    position:absolute;
+    top:30%;
+    left:29%;
+    font-size: 700;
+}
+
+.search{
+    width:100px;
+    height:100px;
+    background-color: aliceblue;
+    position:sticky;
+    top:100px;
+    left:100px;
 }
 
 .p-up{
