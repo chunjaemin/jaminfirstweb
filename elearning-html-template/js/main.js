@@ -111,9 +111,12 @@ var c2boxes = document.querySelectorAll('.c-2-box');
 
 c2boxes.forEach(function(box) {
     box.addEventListener('touchstart', function() {
-        c2boxes.forEach(function(box) {
-            box.classList.remove('dark');
-        });
         box.classList.add('dark');
+    });
+});
+
+c2boxes.forEach(function(box) {
+    box.addEventListener('touchend', function() {
+        box.classList.remove('dark');
     });
 });
