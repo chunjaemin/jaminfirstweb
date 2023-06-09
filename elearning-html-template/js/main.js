@@ -110,9 +110,9 @@
 var c2box = document.querySelector('c-2-box');
 
 document.addEventListener('touchstart', function() {
-    c2box.classList.add(dark)
+    c2box.classList.add('dark')
 });
 
 document.addEventListener('touchend', function() {
-    c2box.classList.remove(dark)
+    c2box.classList.remove('dark')
 });

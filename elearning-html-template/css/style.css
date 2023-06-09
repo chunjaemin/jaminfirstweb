@@ -22,6 +22,8 @@
 }
 
 
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -565,4 +567,11 @@
 
 .menu-list li{
     border: solid black;
+}
+.p-up{
+    font-size:3vw;
+    font-weight: 700;
+}
+.p-keyword{
+    color: black !important;
 }
