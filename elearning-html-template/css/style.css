@@ -527,6 +527,10 @@
     cursor: pointer;
 }
 
+.c-2-box:hover{
+    filter: brightness(0.7)
+}
+
 .cb1{
     background-color: rgb(246, 249, 206);
 }

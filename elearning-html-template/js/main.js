@@ -107,7 +107,7 @@
     
 })(jQuery);
 
-var c2box = document.querySelector('c-2-box');
+var c2box = document.querySelector('.c-2-box');
 
 document.addEventListener('touchstart', function() {
     c2box.classList.add('dark')
