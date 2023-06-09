@@ -574,19 +574,19 @@
 }
 
 .menu-box{
+    position:relative;
     height:1000px;
     width:200px;
     background-color: #d6d8df;
 }
 
 .menu-list{
-    list-style-type: none;
-    font-size: 25px;
+    width:100%;
+    aspect-ratio: 1/0.3;
+    background-color: #334ad0;
+    border: 1px black solid;
 }
 
-.menu-list li{
-    border: solid black;
-}
 .p-up{
     font-size:3vw;
     font-weight: 700;
