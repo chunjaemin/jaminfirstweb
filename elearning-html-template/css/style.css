@@ -1,6 +1,5 @@
 /********** Template CSS **********/
 :root {
-    --primary: #308135;
     --light: #e2ecee;
     --dark: #181d38;
 }
@@ -255,22 +254,42 @@
 
 
 /*** Service ***/
+.service-item1 {
+    background: var(--light);
+    transition: 1s;
+    color: rgb(70, 81, 168);
+}
+
+.service-item1:hover {
+    margin-top: -15px;
+    background: rgb(70, 81, 168);
+}
+
+.service-item1 * {
+    transition: 0.5s;
+}
+
+.service-item1:hover * {
+    color: var(--light) !important;
+}
+
+/***서비스***/
 .service-item {
     background: var(--light);
     transition: 1s;
-    color: var(--primary);
+    color: rgb(230, 130, 29);
 }
 
 .service-item:hover {
     margin-top: -15px;
-    background: var(--primary);
+    background: rgb(230, 130, 29);
 }
 
 .service-item * {
     transition: 0.5s;
 }
 
-.service-item:hover * {
+.service-item1:hover  {
     color: var(--light) !important;
 }
 
@@ -636,4 +655,8 @@
     height:100%;
     background-color: white;
     opacity: 0.6;
+}
+
+.ic-1{
+    color:rgb(70, 81, 168) !important;
 }
