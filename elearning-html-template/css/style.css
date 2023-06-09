@@ -575,3 +575,65 @@
 .p-keyword{
     color: black !important;
 }
+
+.search-box{
+    background-color: #308135;
+    width: 100%;
+    aspect-ratio: 1/0.5;
+    display:flex;
+}
+
+.search-left{
+    width:30%;
+    height:100%;
+    background-color: #dedede;
+}
+
+.search-right{
+    position: relative;
+    width:70%;
+    height:100%;
+    background-color: #7f9b19;
+    background-image: url("../img/군인2.jpg");
+    background-size: cover;
+}
+
+.penta{
+    position: absolute;
+    background-color: #334ad0;
+    width:25%;
+    height:40%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
+}
+
+.s1{
+    top: 8%;
+    left: 5%;
+}
+
+.s2{
+    top:8%;
+    left:35%;
+}
+
+.s3{
+    top:8%;
+    left:65%;
+}
+
+.s4{
+    top: 53%;
+    left: 20%;
+}
+
+.s5{
+    top:53%;
+    left:51%
+}
+
+.white-filter{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    opacity: 0.6;
+}
