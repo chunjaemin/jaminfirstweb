@@ -8,8 +8,6 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-    <script src="https://kit.fontawesome.com/df8a6812c1.js" crossorigin="anonymous"></script>
-
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -31,7 +29,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
     <!-- Header, Footer 삽입용 스크립트 -->
     <script src="js/includeHTML.js"></script>
 </head>
@@ -41,43 +38,57 @@
     <div include-html="header.html"></div>
     <script>includeHTML();</script>
 
-    <!-- Carousel Start -->
-    <div class="c-1 d-none d-md-block">
-        <div class="c-imaging">
-            <div class="b-box-2">
-                <div class="main-menu m1" onclick="location.href='사관학교.html';">
-                    <p class="b-menu">사관학교</p>
-                </div>
-                <div class="main-menu m2" onclick="location.href='학군사관.html';">
-                    <p class="b-menu">학군사관</p>
-                </div>
-                <div class="main-menu m3" onclick="location.href='학사장교.html';">
-                    <p class="b-menu">학사장교</p>
-                </div>
-                <div class="main-menu m4" onclick="location.href='특별임관.html';">
-                    <p class="b-menu">특별임관</p>
+    <!--배너이미지-->
+    <div class="container-fluid bg-primary py-5 mb-3 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">학군사관</h1>
                 </div>
             </div>
-            <img class="c-img" src="img/군대이미지5.jpg">
         </div>
     </div>
+    <!--배너이미지 끝-->
 
-    <div class="c-2 d-md-none">
-        <div class="c-2-box cb1" onclick="location.href='사관학교.html';">
-            <p class="p-menu pp1">사관학교</p>
-        </div>
-        <div class="c-2-box cb2" onclick="location.href='학군사관.html';">
-            <p class="p-menu">학군사관</p>
-        </div>
-        <div class="c-2-box cb3" onclick="location.href='학사장교.html';">
-            <p class="p-menu">학사장교</p>
-        </div>
-        <div class="c-2-box cb4" onclick="location.href='특별임관.html';">
-            <p class="p-menu">특별임관</p>
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3" onclick="location.href='학군사관-육군.html';">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-mountain text-primary mb-4"></i>
+                            <h5 class="mb-3">육군</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-anchor text-primary mb-4"></i>
+                            <h5 class="mb-3">해군</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-plane text-primary mb-4"></i>
+                            <h5 class="mb-3">공군</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Service End -->
 
+
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
