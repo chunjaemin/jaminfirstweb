@@ -32,6 +32,9 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- 사관학교 관련 페이지에 사용할 CSS 파일 -->
+    <link href="css/사관학교.css" rel="stylesheet">
+
     <!-- Header, Footer 삽입용 스크립트 -->
     <script src="js/includeHTML.js"></script>
 </head>
@@ -41,60 +44,33 @@
     <div include-html="header.html"></div>
     <script>includeHTML();</script>
 
-    <!-- Carousel Start -->
-    <div class="c-1">
-        <div class="c-imaging-2">
-            <div class="b-box">
-                <div class="bb-box">
-                    <p class="b-menu">menu1</p>
-                    <img class='b-img' src="img/team-1.jpg">
+    <!-- 사관학교 선택 화면 -->
+    <div class="academy_selection">
+        <div class="button_container">
+            <div class="row">
+                <div class="col-xl-4" width="400" height="400"> <!-- 육군사관학교 버튼 -->
+                    <!--<p class="academy_selection_button_name">육군사관학교</p>-->
+                    <div class="position-absolute">
+                        <p class="text-center">육군사관학교</p>
+                    </div>
+                    <object data="img/buttons/육군_button.svg" type="image/svg+xml" aria-label="육군 버튼" width="400" height="400"></object>
                 </div>
-                <div class="bb-box">
-                    <p class="b-menu">menu2</p>
-                    <img class='b-img' src="img/team-2.jpg">
+                <div class="col-xl-4" width="400" height="400"> <!-- 해군사관학교 버튼 -->
+                    <p class="academy_selection_button_name">해군사관학교</p>
+                    <object data="img/buttons/해군_button.svg" type="image/svg+xml" aria-label="해군 버튼" width="400" height="400"></object>
                 </div>
-                <div class="bb-box">
-                    <p class="b-menu">menu3</p>
-                    <img class='b-img' src="img/team-3.jpg">
+                <div class="col-xl-4" width="400" height="400"> <!-- 공군사관학교 버튼 -->
+                    <p class="academy_selection_button_name">공군사관학교</p>
+                    <object data="img/buttons/공군_button.svg" type="image/svg+xml" aria-label="공군 버튼" width="400" height="400"></object>
                 </div>
-                <div class="bb-box">
-                    <p class="b-menu">menu4</p>
-                    <img class='b-img' src="img/team-4.jpg">
-                </div>
-            </div>
-            <img class="c-img-2" src="img/군대이미지1.jpg">
-        </div>
-        <div class="c-imaging">
-            <div class="b-box-2">
-                <div class="bb-box-2">
-                    <p class="b-menu">menu1</p>
-                    <img class='b-img' src="img/team-1.jpg">
-                </div>
-                <div class="bb-box-2">
-                    <p class="b-menu">menu2</p>
-                    <img class='b-img' src="img/team-2.jpg">
-                </div>
-                <div class="bb-box-2">
-                    <p class="b-menu">menu3</p>
-                    <img class='b-img' src="img/team-3.jpg">
-                </div>
-                <div class="bb-box-2">
-                    <p class="b-menu">menu4</p>
-                    <img class='b-img' src="img/team-4.jpg">
+                <div class="col-xl-4" width="400" height="400"> <!-- 국군간호사관학교 버튼 -->
+                    <p class="academy_selection_button_name">국군간호사관학교</p>
+                    <object data="img/buttons/육군_button.svg" type="image/svg+xml" aria-label="국군간호 버튼" width="400" height="400"></object>
                 </div>
             </div>
-            <img class="c-img" src="img/군대이미지5.jpg">
         </div>
     </div>
-    <!-- Carousel End -->
-
-    <!-- 이미지 테스트 코드 -->
-    <!--
-    <div class="Selection Buttons">
-        <img src="img/button.svg">
-        <object data="img/button.svg" type="image/svg+xml" aria-label="클릭 버튼"></object>
-    </div>
-    -->
+    <img class="academy_selection_background" src="img/사관학교/홈/사관학교_홈_배경.jpg">
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

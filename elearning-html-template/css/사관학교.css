@@ -1,0 +1,39 @@
+/** 사관학교 **/
+
+.academy_selection_background
+{
+    /* 이미지 블러 처리 */
+    -webkit-filter: blur(4px); 
+    -moz-filter: blur(4px); 
+    -o-filter: blur(4px); 
+    -ms-filter: blur(4px); 
+    filter: blur(4px);
+    z-index: 0;
+}
+
+.academy_selection
+{
+    position: absolute;
+    z-index: 1;
+}
+
+.academy_selection_button
+{
+    position: absolute;
+    z-index: 2;
+}
+
+.academy_selection_button_name
+{
+    position: absolute;
+    z-index: 3;
+    font-size: 1 em;
+    color: #181d38;
+}
+
+.button_container
+{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
