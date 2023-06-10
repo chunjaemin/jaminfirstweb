@@ -569,13 +569,17 @@
 }
 
 .c-3-box{
+    position: absolute;
+    top:20%;
+    left:40%;
     width:20%;
     aspect-ratio: 1/1;
     background-color: #334ad0;
     border-radius: 15px;
     border: 1px black solid;
     background-image: url('../img/돋보기.jpg');
-    background-size: auto;
+    background-size: 120px 120px;
+    box-shadow: 2px 2px 3px 2px #dadce0 inset;
 }
 
 .p-menu{
