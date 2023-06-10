@@ -107,15 +107,15 @@
     
 })(jQuery);
 
-var c2boxes = document.querySelectorAll('.c-2-box');
+var darkness = document.querySelectorAll('.darkstart');
 
-c2boxes.forEach(function(box) {
+darkness.forEach(function(box) {
     box.addEventListener('touchstart', function() {
         box.classList.add('dark');
     });
 });
 
-c2boxes.forEach(function(box) {
+darkness.forEach(function(box) {
     box.addEventListener('touchend', function() {
         box.classList.remove('dark');
     });

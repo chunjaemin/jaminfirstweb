@@ -253,10 +253,10 @@
 }
 
 
-/*** Service ***/
+/***서비스1***/
 .service-item1 {
     background: var(--light);
-    transition: 1s;
+    transition: 0.8s;
     color: rgb(70, 81, 168);
 }
 
@@ -273,26 +273,45 @@
     color: var(--light) !important;
 }
 
-/***서비스***/
-.service-item {
+/***서비스2***/
+.service-item2 {
     background: var(--light);
-    transition: 1s;
+    transition: 0.8s;
     color: rgb(230, 130, 29);
 }
 
-.service-item:hover {
+.service-item2:hover {
     margin-top: -15px;
     background: rgb(230, 130, 29);
 }
 
-.service-item * {
-    transition: 0.5s;
+.service-item2 * {
+    transition: 0.1s;
 }
 
-.service-item1:hover  {
+.service-item2:hover  {
     color: var(--light) !important;
 }
 
+/***서비스3***/
+.service-item3 {
+    background: var(--light);
+    transition: 0.8s;
+    color: rgb(17, 148, 67);;
+}
+
+.service-item3:hover {
+    margin-top: -15px;
+    background: rgb(17, 148, 67);;
+}
+
+.service-item3 * {
+    transition: 0.1s;
+}
+
+.service-item3:hover  {
+    color: var(--light) !important;
+}
 
 /*** Categories & Courses ***/
 .category img,
@@ -578,7 +597,7 @@
     border-radius: 15px;
     border: 1px black solid;
     background-image: url('../img/돋보기.jpg');
-    background-size: 120px 120px;
+    background-size: 100% 100%;
     box-shadow: 2px 2px 3px 2px #dadce0 inset;
 }
 
