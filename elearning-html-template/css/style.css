@@ -562,6 +562,22 @@
     background-color: rgb(17, 148, 67);
 }
 
+.c-3{
+    position:relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+}
+
+.c-3-box{
+    width:20%;
+    aspect-ratio: 1/1;
+    background-color: #334ad0;
+    border-radius: 15px;
+    border: 1px black solid;
+    background-image: url('../img/돋보기.jpg');
+    background-size: auto;
+}
+
 .p-menu{
     position: absolute;
     top: 30%;
