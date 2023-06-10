@@ -120,3 +120,10 @@ c2boxes.forEach(function(box) {
         box.classList.remove('dark');
     });
 });
+
+
+window.addEventListener("scroll", function() {
+    var box = document.querySelector(".search");
+    var scrollPos = window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
+    box.style.transform = "translateY(" + scrollPos * 1 + "px)";
+});

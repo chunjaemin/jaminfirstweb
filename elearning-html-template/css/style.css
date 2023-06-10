@@ -596,12 +596,20 @@
 }
 
 .search{
+    position:absolute;
     width:100px;
     height:100px;
     background-color: aliceblue;
-    position:sticky;
-    top:100px;
-    left:100px;
+    bottom:100px;
+    left:50px;
+    transition: transform 0.7s;
+    border: 1px black solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 2px #dadce0 inset;
+}
+
+.search:hover{
+    filter:brightness(0.8);
 }
 
 .p-up{
