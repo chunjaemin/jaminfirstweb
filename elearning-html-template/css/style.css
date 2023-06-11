@@ -612,43 +612,76 @@
     color:#181d38;
 }
 
-.menu-box{
-    position:relative;
-    height:1000px;
-    width:200px;
-    background-color: #d6d8df;
-}
-
-.menu-list{
-    position:relative;
+.bottom-fixed-bar{
+    position:fixed;
+    bottom:0;
     width:100%;
-    aspect-ratio: 1/0.3;
-    background-color: #334ad0;
-    border: 1px black solid;
+    height:8%;
+    background-color: black;
 }
 
-.p-menu{
-    position:absolute;
-    top:30%;
-    left:29%;
-    font-size: 700;
+.bottom-fixed-bar-m{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:8%;
+    background-color: black;
+    display:flex;
 }
 
-.search{
-    position:absolute;
-    width:100px;
-    height:100px;
-    background-color: aliceblue;
-    bottom:100px;
-    left:50px;
-    transition: transform 0.7s;
-    border: 1px black solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 3px 2px #dadce0 inset;
+.bottom-menu{
+    position:relative;
+    float:right;
+    height:100%;
+    width:13%;
 }
 
-.search:hover{
+.bottom-menu-m{
+    position:relative;
+    height:100%;
+    width:33%;
+}
+
+.bottom-menu:hover{
     filter:brightness(0.8);
+}
+
+.bottom-word{
+    position:absolute;
+    top:25%;
+    left:10%;
+    color:white;
+    font-size: 1.8vw;
+}
+
+.bottom-word-m{
+    position:absolute;
+    top:25%;
+    left:20%;
+    color:white;
+    font-size: 3.5vw;
+}
+
+.bottom-search{
+    height:100%;
+    aspect-ratio: 1/1;
+    background-color: rgb(212, 210, 210);
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-image:url('../img/돋보기.jpg');
+    background-size: 100% 100%;
+    opacity: 0.9;
+}
+
+.bottom-search-m{
+    height:100%;
+    aspect-ratio: 1/1;
+    background-color: rgb(212, 210, 210);
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-image:url('../img/돋보기.jpg');
+    background-size: 100% 100%;
+    opacity: 0.9;
 }
 
 .p-up{
