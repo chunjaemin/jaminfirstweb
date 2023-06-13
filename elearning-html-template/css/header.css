@@ -1,0 +1,64 @@
+/** 사관학교 **/
+.bg-green{
+    background-color: rgb(20, 70, 20);
+}
+
+.mp-up{
+    font-size:6vw;
+    font-weight: 700;
+}
+
+.p-up{
+    font-size:3vw;
+    font-weight: 700;
+}
+
+.p-keyword{
+    color: black !important;
+}
+.n-menu{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/메뉴바.png');
+    background-size: 100% 100%;
+    border: none
+}
+
+.n-box{
+    width: 100%;
+    aspect-ratio: 1/0.15;
+}
+
+.n-ss-menu1{
+    position: relative;
+    background-color: rgb(20, 70, 20);
+    width: 100%;
+    aspect-ratio: 1/0.06;
+}
+
+.n-ss-menu1-p1{
+    color: white;
+    font-size: 4vw;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.n-ss-menu1-p2{
+    color: white;
+    font-size: 4vw;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.n-sss-menu1{
+    text-align: center;
+}
+
+.n-p{
+    font-size: 3vw;
+    font-weight: 700;
+    display: block;
+    color:black;
+}
