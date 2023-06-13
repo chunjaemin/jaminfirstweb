@@ -552,7 +552,6 @@
 }
 
 .c-2{
-    background-color: yellow;
     width: 100%;
 }
 
@@ -563,6 +562,15 @@
     font-size: 11vw;
     font-weight: 700;
     cursor: pointer;
+}
+
+.c-2-cover{
+    position: absolute;
+    top:20%;
+    left:5%;
+    width:90%;
+    background-color: #7f9b19;
+    box-shadow: 15px 20px 20px rgba(10, 10, 10, 0.5);
 }
 
 .cb1{
@@ -589,7 +597,7 @@
 
 .c-3-box{
     position: absolute;
-    top:20%;
+    top:104%;
     left:40%;
     width:20%;
     aspect-ratio: 1/1;
@@ -599,6 +607,7 @@
     background-image: url('../img/돋보기.jpg');
     background-size: 100% 100%;
     box-shadow: 2px 2px 3px 2px #dadce0 inset;
+    box-shadow: 5px 5px 10px rgba(10, 10, 10, 0.5);
 }
 
 .p-menu{
@@ -749,4 +758,12 @@
 
 .ic-1{
     color:rgb(70, 81, 168) !important;
+}
+
+.c-2-img-box{
+    width: 100%;
+    aspect-ratio: 1/2.2;
+    background-image: url('../img/군대이미지5.jpg');
+    background-size: cover;
+    filter:brightness(0.5)
 }
