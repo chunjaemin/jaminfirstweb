@@ -62,3 +62,8 @@
     display: block;
     color:black;
 }
+
+.n-s-d{
+    width: 100%;
+    aspect-ratio: 1/0.06;
+}
