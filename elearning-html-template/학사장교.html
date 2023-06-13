@@ -27,6 +27,9 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- 상단메뉴바 링크-->
+    <link href="css/header.css" rel="stylesheet">
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Header, Footer 삽입용 스크립트 -->
@@ -38,6 +41,7 @@
     <div include-html="header.html"></div>
     <script>includeHTML();</script>
 
+
     <!--배너이미지-->
     <div class="container-fluid bg-primary py-5 mb-3 page-header">
         <div class="container py-5">
@@ -48,47 +52,37 @@
             </div>
         </div>
     </div>
-    <!--배너이미지 끝-->
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item2 text-center pt-3" onclick="location.href='학군사관-육군.html';">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-mountain text-primary mb-4"></i>
-                            <h5 class="mb-3">육군</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item2 text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-anchor text-primary mb-4"></i>
-                            <h5 class="mb-3">해군</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item2 text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-plane text-primary mb-4"></i>
-                            <h5 class="mb-3">공군</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <div class="bottom-fixed-bar d-none d-md-block">
+        <div class="bottom-menu">
+            <p class="bottom-word">대우및특전</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">임관병과</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">지원정보</p>
+        </div>
+        <div class="bottom-search"></div>
+    </div>
+
+    <div class="bottom-fixed-bar-m d-md-none">
+        <div class="bottom-search-m darkstart"></div>
+        <div class="bottom-menu-m darkstart">
+            <p class="bottom-word-m">지원정보</p>
+        </div>
+        <div class="bottom-menu-m darkstart">
+            <p class="bottom-word-m">임관병과</p>
+        </div>
+        <div class="bottom-menu-m darkstart">
+            <p class="bottom-word-m">대우및특전</p>
         </div>
     </div>
-    <!-- Service End -->
 
 
 
 
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

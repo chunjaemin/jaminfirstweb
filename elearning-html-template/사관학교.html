@@ -3,12 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>사관학교</title>
+    <title>eLEARNING - eLearning HTML Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
-    <script src="https://kit.fontawesome.com/df8a6812c1.js" crossorigin="anonymous"></script>
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -29,12 +27,11 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- 상단메뉴바 링크-->
+    <link href="css/header.css" rel="stylesheet">
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
-    <!-- 사관학교 관련 페이지에 사용할 CSS 파일 -->
-    <link href="css/사관학교.css" rel="stylesheet">
-
     <!-- Header, Footer 삽입용 스크립트 -->
     <script src="js/includeHTML.js"></script>
 </head>
@@ -44,43 +41,49 @@
     <div include-html="header.html"></div>
     <script>includeHTML();</script>
 
-    <!-- 사관학교 선택 화면 -->
-    <div class="academy_selection">
-        <div class="button_container">
-            <div class="academy_selection_button_row row justify-content-xl-start align-items-xl-baseline">
-                <div class="col-xl-4">
-                    <div class="academy_selection_button" onclick="location.href='사관학교-육사.html';"> <!-- 육군사관학교 버튼 -->
-                        <img class="academy_selection_button_image" src="img/buttons/육군_button.svg" alt="육군 버튼" width="300" height="300">
-                        <p class="academy_selection_button_name">육군사관학교</p>
-                        <img class="academy_logo" src="img/사관학교/로고/육군사관학교.svg" alt="육사 로고">
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="academy_selection_button" onclick="location.href='사관학교-육사.html';"> <!-- 해군사관학교 버튼 -->
-                        <img class="academy_selection_button_image" src="img/buttons/해군_button.svg" alt="해군 버튼" width="300" height="300">
-                        <p class="academy_selection_button_name_navy">해군사관학교</p>
-                        <img class="academy_logo" src="img/사관학교/로고/해군사관학교.svg" alt="해사 로고">   
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="academy_selection_button" onclick="location.href='사관학교-육사.html';"> <!-- 공군사관학교 버튼 -->
-                        <img class="academy_selection_button_image" src="img/buttons/공군_button.svg" alt="공군 버튼" width="300" height="300">
-                        <p class="academy_selection_button_name">공군사관학교</p>
-                        <img class="academy_logo" src="img/사관학교/로고/공군사관학교.svg" alt="공사 로고">    
-                    </div>
-                </div>
-                <div class="col-xl-4">
-                    <div class="academy_selection_button" onclick="location.href='사관학교-육사.html';"> <!-- 국군간호사관학교 버튼 -->
-                        <img class="academy_selection_button_image" src="img/buttons/육군_button.svg" alt="국군간호 버튼" width="300" height="300">
-                        <p class="academy_selection_button_name">국군간호사관학교</p>
-                        <img class="academy_logo" src="img/사관학교/로고/국군간호사관학교.svg" alt="국간사 로고">
-                    </div>
+
+    <!--배너이미지-->
+    <div class="container-fluid bg-primary py-5 mb-3 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">사관학교</h1>
                 </div>
             </div>
         </div>
-        <img class="academy_selection_background img-fluid" src="img/사관학교/홈/사관학교_홈_배경.jpg">
     </div>
-    
+
+
+    <div class="bottom-fixed-bar d-none d-md-block">
+        <div class="bottom-menu">
+            <p class="bottom-word">대우및특전</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">임관병과</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">지원정보</p>
+        </div>
+        <div class="bottom-search"></div>
+    </div>
+
+    <div class="bottom-fixed-bar-m d-md-none">
+        <div class="bottom-search-m darkstart"></div>
+        <div class="bottom-menu-m darkstart">
+            <p class="bottom-word-m">지원정보</p>
+        </div>
+        <div class="bottom-menu-m darkstart">
+            <p class="bottom-word-m">임관병과</p>
+        </div>
+        <div class="bottom-menu-m darkstart">
+            <p class="bottom-word-m">대우및특전</p>
+        </div>
+    </div>
+
+
+
+
+
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
