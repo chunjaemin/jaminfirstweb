@@ -1,7 +1,7 @@
 /*** 사관학교 ***/
 
 .top-bar{
-    border-radius: 5px;
+    border-radius: 15px;
     margin-top: 5%;
     margin-left: 2.5%;
     margin-bottom: 10%;
@@ -81,4 +81,26 @@
     aspect-ratio: 1/0.1;
     background-color: rgb(46, 196, 146);
     text-align: center;
+}
+
+/*** 모바일 컨텐츠***/
+
+.main-title-m{
+    width: 80%;
+    margin: auto;
+    aspect-ratio: 1/0.05;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.main-container-m{
+    width:80%;
+    margin: auto;
+}
+
+.main-content-m{
+    width:100%;
+    aspect-ratio: 1/0.5;
+    background-color: aquamarine;
+    margin-top: 2%;
 }
