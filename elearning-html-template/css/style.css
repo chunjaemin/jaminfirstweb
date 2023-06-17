@@ -796,6 +796,24 @@
     top: 92.3px;
 }
 
-.basic-setting{
+.fix2{
+    position: fixed !important;
+    top: 92.3px;
+}
+
+.fix3{
+    position: fixed !important;
+    top: 92.3px;
+}
+
+.basic-setting1{
     margin-top: 55px;
+}
+
+.basic-setting2{
+    margin-top: 37.6px;
+}
+
+.basic-setting3{
+    margin-top: 37.6px;
 }
