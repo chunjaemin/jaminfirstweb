@@ -791,6 +791,11 @@
     display: none;
 }
 
-.fix{
+.fix1{
     position: fixed !important;
+    top: 92.3px;
+}
+
+.basic-setting{
+    margin-top: 55px;
 }
