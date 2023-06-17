@@ -786,3 +786,11 @@
     background-color: black;
     opacity: 0.5;
 }
+
+.none_visible{
+    display: none;
+}
+
+.fix{
+    position: fixed !important;
+}
