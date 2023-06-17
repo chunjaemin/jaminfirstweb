@@ -32,6 +32,7 @@ function visible_click3(){
   document.querySelector('.invisible3').classList.toggle('none_visible');
 }
 
+
 function visible_click4(){
   document.querySelector('.invisible4').classList.toggle('none_visible');
 }
@@ -44,42 +45,67 @@ menu1=document.querySelector('.content-menu1');
 menu2=document.querySelector('.content-menu2');
 menu3=document.querySelector('.content-menu3');
 
-content1=document.querySelector('.content-menu-content1');
-content2=document.querySelector('.content-menu-content2');
-content3=document.querySelector('.content-menu-content3');
+content1=document.getElementById('content1');
+content2=document.getElementById('content2');
+content3=document.getElementById('content3');
+
+topnavbar=document.getElementById('navbar');
 
 
 window.addEventListener("scroll", (event) => {
+  content1=document.getElementById('content1');
+  topnavbar=document.getElementById('navbar');
+  menu1ClientRect = menu1.getBoundingClientRect(); 
   content1ClientRect = content1.getBoundingClientRect(); 
-  if (content1ClientRect.top <= 135.5 && !content1.classList.contains('none_visible') && !menu1.classList.contains('fix1')) {
+  topnavbarClientRect = topnavbar.getBoundingClientRect(); 
+  if (menu1ClientRect.top < topnavbarClientRect.bottom && !content1.classList.contains('none_visible') && !menu1.classList.contains('fix1')) {
     menu1.classList.add('fix1');
     content1.classList.add('basic-setting1');
-  } else if (content1ClientRect.top > 135.5 && menu1.classList.contains('fix1')) {
+  } else if (menu1ClientRect.bottom < content1ClientRect.top && menu1.classList.contains('fix1')) {
     menu1.classList.remove('fix1');
     content1.classList.remove('basic-setting1')
   }
 });
 
 window.addEventListener("scroll", (event) => {
+  content2=document.getElementById('content2');
+  topnavbar=document.getElementById('navbar');
+  menu2ClientRect = menu2.getBoundingClientRect(); 
   content2ClientRect = content2.getBoundingClientRect(); 
-  if (content2ClientRect.top <= 135.5 && !content2.classList.contains('none_visible') && !menu2.classList.contains('fix2')) {
+  topnavbarClientRect = topnavbar.getBoundingClientRect(); 
+  if (menu2ClientRect.top < topnavbarClientRect.bottom && !content2.classList.contains('none_visible') && !menu2.classList.contains('fix2')) {
     menu2.classList.add('fix2');
     content2.classList.add('basic-setting2');
-  } else if (content2ClientRect.top > 135.5 && menu2.classList.contains('fix2')) {
+  } else if (menu2ClientRect.bottom < content2ClientRect.top && menu2.classList.contains('fix2')) {
     menu2.classList.remove('fix2');
     content2.classList.remove('basic-setting2')
   }
 });
 
 window.addEventListener("scroll", (event) => {
+  content3=document.getElementById('content3');
+  topnavbar=document.getElementById('navbar');
+  menu3ClientRect = menu3.getBoundingClientRect(); 
   content3ClientRect = content3.getBoundingClientRect(); 
-  if (content3ClientRect.top <= 135.5 && !content3.classList.contains('none_visible') && !menu3.classList.contains('fix3')) {
+  topnavbarClientRect = topnavbar.getBoundingClientRect(); 
+  if (menu3ClientRect.top < topnavbarClientRect.bottom && !content3.classList.contains('none_visible') && !menu3.classList.contains('fix3')) {
     menu3.classList.add('fix3');
     content3.classList.add('basic-setting3');
-  } else if (content3ClientRect.top > 135.5 && menu3.classList.contains('fix3')) {
+  } else if (menu3ClientRect.bottom < content3ClientRect.top && menu3.classList.contains('fix3')) {
     menu3.classList.remove('fix3');
     content3.classList.remove('basic-setting3')
   }
+});
+
+
+window.addEventListener('resize', function() {
+  topnavbar=document.getElementById('navbar');
+  topnavbarClientRect = topnavbar.getBoundingClientRect(); 
+
+  fix1.style.top = topnavbarClientRect.bottom + 'px';
+  fix2.style.top = topnavbarClientRect.height + 'px';
+  fix3.style.top = topnavbarClientRect.height + 'px';
+  alert('')
 });
 
 

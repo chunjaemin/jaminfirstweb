@@ -793,17 +793,17 @@
 
 .fix1{
     position: fixed !important;
-    top: 92.3px;
+    top:100px;
 }
 
 .fix2{
     position: fixed !important;
-    top: 92.3px;
+    top:100px;
 }
 
 .fix3{
     position: fixed !important;
-    top: 92.3px;
+    top:100px;
 }
 
 .basic-setting1{
@@ -811,7 +811,7 @@
 }
 
 .basic-setting2{
-    margin-top: 37.6px;
+    margin-top: 3px;
 }
 
 .basic-setting3{
