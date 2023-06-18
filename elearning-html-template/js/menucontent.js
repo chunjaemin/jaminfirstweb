@@ -97,6 +97,15 @@ window.addEventListener("scroll", (event) => {
   }
 });
 
+function searchBox(){
+  searchbox=document.getElementById('mini-search-box')
+  fadebox=document.getElementById('fade-box')
+  fadebox.classList.toggle('fixleft')
+  searchbox.classList.toggle('imagechange')
+}
+
+
+
 
 
 
