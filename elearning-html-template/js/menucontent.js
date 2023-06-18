@@ -98,14 +98,5 @@ window.addEventListener("scroll", (event) => {
 });
 
 
-window.addEventListener('resize', function() {
-  topnavbar=document.getElementById('navbar');
-  topnavbarClientRect = topnavbar.getBoundingClientRect(); 
-
-  fix1.style.top = topnavbarClientRect.bottom + 'px';
-  fix2.style.top = topnavbarClientRect.height + 'px';
-  fix3.style.top = topnavbarClientRect.height + 'px';
-  alert('')
-});
 
 
