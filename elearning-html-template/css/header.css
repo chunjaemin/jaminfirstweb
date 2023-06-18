@@ -32,9 +32,11 @@
     width: 100%;
     height:70px;
     z-index: 9999;
+
 }
 
 .n-s-menu1{
+    width: 100%;
 }
 
 .n-ss-menu1{
@@ -65,7 +67,7 @@
 }
 
 .n-p{
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: 700;
     display: block;
     color:black;
