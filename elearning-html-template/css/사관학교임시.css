@@ -213,12 +213,3 @@
     margin-top: 15%;
     margin-left: 13%;
 }
-
-.test-box{
-    width:100px;
-    height: 100px;
-    position: fixed;
-    right: 3%;
-    bottom: 3%;
-    background-color: aqua;
-}
