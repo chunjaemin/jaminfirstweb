@@ -519,8 +519,7 @@
     position: relative;
     width: 25%;
     height: 100%;
-    border: 1px black solid;
-    color:#FFFFFF
+    color:white;
 }
 
 .main-menu:hover{
