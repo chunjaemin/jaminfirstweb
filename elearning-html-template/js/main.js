@@ -143,3 +143,22 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
 });
+
+var menuContainer = document.querySelector('.n-s-menu1');
+
+menuContainer.addEventListener('touchstart', function(event) {
+  this.allowUp = (this.scrollTop > 0);
+  this.allowDown = (this.scrollTop < this.scrollHeight - this.clientHeight);
+  this.slideBeginY = event.pageY;
+});
+
+menuContainer.addEventListener('touchmove', function(event) {
+  var up = (event.pageY > this.slideBeginY);
+  var down = (event.pageY < this.slideBeginY);
+  var scrolling = (up && this.allowUp) || (down && this.allowDown);
+  if (scrolling) {
+    event.stopPropagation();
+  } else {
+    event.preventDefault();
+  }
+});
