@@ -35,7 +35,8 @@
 
 }
 
-.n-s-menu1{
+.n-s-container{
+    overflow: auto;
 }
 
 .n-ss-menu1{
