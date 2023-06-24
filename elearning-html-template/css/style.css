@@ -578,22 +578,22 @@
 
 .cb1{
     background-image: url('../img/앱\ 메인메뉴11.png');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .cb2{
     background-image: url('../img/앱\ 메인메뉴22.png');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .cb3{
     background-image: url('../img/앱\ 메인메뉴33.png');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .cb4{
     background-image: url('../img/앱\ 메인메뉴44.png');
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .c-3{
