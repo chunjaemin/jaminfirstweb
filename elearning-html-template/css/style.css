@@ -577,19 +577,23 @@
 }
 
 .cb1{
-    background-color: rgb(246, 249, 206);
+    background-image: url('../img/앱\ 메인메뉴11.png');
+    background-size: cover;
 }
 
 .cb2{
-    background-color: rgb(70, 81, 168);
+    background-image: url('../img/앱\ 메인메뉴22.png');
+    background-size: cover;
 }
 
 .cb3{
-    background-color: rgb(230, 130, 29);
+    background-image: url('../img/앱\ 메인메뉴33.png');
+    background-size: cover;
 }
 
 .cb4{
-    background-color: rgb(17, 148, 67);
+    background-image: url('../img/앱\ 메인메뉴44.png');
+    background-size: cover;
 }
 
 .c-3{
@@ -615,13 +619,13 @@
 
 .p-menu{
     position: absolute;
-    top: 30%;
-    left: 25%;
-    color: white;
+    top: 40%;
+    left: 70%;
+    color: rgb(0, 0, 0);
+    font-size: 4vh;
 }
 
 .pp1{
-    color:#181d38;
 }
 
 .bottom-fixed-bar{
