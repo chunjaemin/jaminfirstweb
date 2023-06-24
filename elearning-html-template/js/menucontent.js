@@ -1,9 +1,5 @@
 
 
-function locate(){
-  let scrolly = window.scrollY;
-  alert(scrolly);
-}
 
 function visible_click1(){
   if (menu1.classList.contains('fix1') && !content1.classList.contains('none_visible')){

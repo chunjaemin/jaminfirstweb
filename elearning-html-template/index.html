@@ -34,6 +34,7 @@
 
     <!-- header Stylesheet -->
     <link href="css/header.css" rel="stylesheet">
+    <link href="css/사관학교임시.css" rel="stylesheet">
 
     <!-- Header, Footer 삽입용 스크립트 -->
     <script src="js/includeHTML.js"></script>
@@ -87,8 +88,20 @@
         </div>
     </div>
 
+    <div id="fade-box" class="left-fade-box d-md-none">
+        <div class="faed-box-wrapper">
+            <div class="fade-box-content">
+                <p class="fade-box-title">맞춤형 검색</p>
+                <p class="fade-box-p">나이</p>
+                <p class="fade-box-p">학력</p>
+                <p class="fade-box-p">전공</p>
+            </div>
+        </div>
+    </div>
 
-    <div class="n-test"></div>
+    <div id=mini-search-box class="mini-search d-md-none darkstart" onclick="searchBox()"></div>
+
+
     <!-- Carousel End -->
 
 
@@ -103,6 +116,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/menucontent.js"></script>
 </body>
 
 </html>

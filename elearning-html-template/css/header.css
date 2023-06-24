@@ -36,7 +36,9 @@
 }
 
 .n-s-container{
-    overflow: auto;
+}
+
+.n-s-menu1{
 }
 
 .n-ss-menu1{
@@ -89,4 +91,8 @@
     margin-bottom: 12.5px;
     height:35px;
     width: 100%;
+}
+
+.m-menu-scroll{
+    overflow: scroll;
 }

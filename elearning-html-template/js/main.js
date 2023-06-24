@@ -162,3 +162,7 @@ menuContainer.addEventListener('touchmove', function(event) {
     event.preventDefault();
   }
 });
+
+function visible_click(){
+    document.getElementById('n-button').classList.toggle('none_visible');
+}
