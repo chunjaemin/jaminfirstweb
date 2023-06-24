@@ -24,9 +24,7 @@
     aspect-ratio: 1/1;
     background-image: url('../img/메뉴버튼.png');
     background-size: 100% 100%;
-    border: none;
-    outline: none;
-    box-shadow: none;
+    border:none;
 }
 
 .n-logo-box{

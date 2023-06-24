@@ -125,3 +125,20 @@ document.querySelectorAll('.darkstart').forEach(function(box) {
 function visible_click(){
     document.getElementById('n-button').classList.toggle('none_visible');
 }
+
+
+
+var selectElement1 = document.getElementById("mySelect1");
+var selectElement2 = document.getElementById("mySelect2");
+
+selectElement1.addEventListener("change", function () {
+    if (selectElement1.value === "23세") {
+        alert("23세가 선택되었습니다");
+    }
+});
+
+function fade_search(){
+    if (selectElement1.value=="21세" && selectElement2.value=="2학년"){
+        alert('합격')
+    }
+}

@@ -816,3 +816,30 @@
     height:70px;
     width: 100%;
 }
+
+.select1{
+    position:absolute;
+    top:10%;
+    left:10%;
+    width:80%;
+    aspect-ratio: 10/1;
+}
+
+.select2{
+    position:absolute;
+    top:30%;
+    left:10%;
+    width:80%;
+    aspect-ratio: 10/1;
+}
+
+.fade-search-button{
+    position:absolute;
+    top:60%;
+    left:25%;
+    width:50%;
+    aspect-ratio: 2/1;
+    background-color: white;
+    text-align: center;
+    font-size: 5vw;
+}

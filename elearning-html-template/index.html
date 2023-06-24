@@ -91,10 +91,27 @@
     <div id="fade-box" class="left-fade-box d-md-none">
         <div class="faed-box-wrapper">
             <div class="fade-box-content">
-                <p class="fade-box-title">맞춤형 검색</p>
-                <p class="fade-box-p">나이</p>
-                <p class="fade-box-p">학력</p>
-                <p class="fade-box-p">전공</p>
+                <select id="mySelect1" class="select1">
+                    <option disabled selected>나이</option>
+                    <option value="20세">20세</option>
+                    <option value="21세">21세</option>
+                    <option value="22세">22세</option>
+                    <option value="23세">23세</option>
+                </select>
+            </div>
+
+            <div class="fade-box-content">
+                <select id="mySelect2" class="select2">
+                    <option disabled selected>학년</option>
+                    <option value="1학년">1학년</option>
+                    <option value="2학년">2학년</option>
+                    <option value="3학년">3학년</option>
+                    <option value="4학년">4학년</option>
+                </select>
+            </div>
+
+            <div class="fade-search-button" onclick="fade_search()">
+                <p>버튼</p>
             </div>
         </div>
     </div>
