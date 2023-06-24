@@ -112,19 +112,14 @@ function alertt(){
    console.log(darkobject)
 }
 
-var darkness = document.querySelectorAll('.darkstart');
-
-darkness.forEach(function(box) {
+document.querySelectorAll('.darkstart').forEach(function(box) {
     box.addEventListener('touchstart', function() {
-        box.classList.add('dark');
+      box.classList.toggle('dark');
     });
-});
-
-darkness.forEach(function(box) {
     box.addEventListener('touchend', function() {
-        box.classList.remove('dark');
+      box.classList.toggle('dark');
     });
-});
+  });
 
 
 function visible_click(){
