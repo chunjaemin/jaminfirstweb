@@ -566,7 +566,7 @@
 .c-2-box{
     position: relative;
     width: 100%;
-    aspect-ratio: 1/0.5;
+    aspect-ratio: 2.45/1;
     font-size: 11vw;
     font-weight: 700;
     cursor: pointer;
