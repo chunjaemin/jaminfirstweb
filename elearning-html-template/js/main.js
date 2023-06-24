@@ -107,6 +107,11 @@
     
 })(jQuery);
 
+function alertt(){
+    darkobject=document.querySelectorAll('.darkstart')
+   console.log(darkobject)
+}
+
 var darkness = document.querySelectorAll('.darkstart');
 
 darkness.forEach(function(box) {
