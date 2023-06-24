@@ -122,47 +122,6 @@ darkness.forEach(function(box) {
 });
 
 
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-});
-
-var menuContainer = document.querySelector('.n-s-menu1');
-
-menuContainer.addEventListener('touchstart', function(event) {
-  this.allowUp = (this.scrollTop > 0);
-  this.allowDown = (this.scrollTop < this.scrollHeight - this.clientHeight);
-  this.slideBeginY = event.pageY;
-});
-
-menuContainer.addEventListener('touchmove', function(event) {
-  var up = (event.pageY > this.slideBeginY);
-  var down = (event.pageY < this.slideBeginY);
-  var scrolling = (up && this.allowUp) || (down && this.allowDown);
-  if (scrolling) {
-    event.stopPropagation();
-  } else {
-    event.preventDefault();
-  }
-});
-
 function visible_click(){
     document.getElementById('n-button').classList.toggle('none_visible');
 }
