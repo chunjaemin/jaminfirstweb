@@ -16,7 +16,7 @@
     color: black !important;
 }
 .n-menu{
-    height: 60%;
+    height: 50%;
     margin-right: 3%;
     aspect-ratio: 1/1;
     background-image: url('../img/메뉴버튼.png');
@@ -85,6 +85,6 @@
 }
 
 .logo-image-m{
-    height:55px;
+    height:35px;
     width: 100%;
 }
