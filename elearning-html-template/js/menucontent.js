@@ -93,6 +93,8 @@ window.addEventListener("scroll", (event) => {
   }
 });
 
+
+
 function searchBox(){
   searchbox=document.getElementById('mini-search-box')
   fadebox=document.getElementById('fade-box')
@@ -101,7 +103,6 @@ function searchBox(){
 }
 
 
-var darkness = document.querySelectorAll('.darkstart');
 
 
 
