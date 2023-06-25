@@ -694,25 +694,43 @@
 
 
 .search-box{
-    background-color: #308135;
+    position: fixed;
+    top:0%;
+    left:-100%;
+    background-color: white;
     width: 100%;
-    aspect-ratio: 1/0.5;
-    display:flex;
+    height:100%;
+    z-index: 9999;
+    transition: 0.5s ease;
 }
 
 .search-left{
     width:30%;
-    height:100%;
+    aspect-ratio: 0.3/0.56;
     background-color: #dedede;
+    float: left;
 }
 
 .search-right{
     position: relative;
     width:70%;
-    height:100%;
+    aspect-ratio: 1/0.8;
     background-color: #7f9b19;
     background-image: url("../img/군인2.jpg");
     background-size: cover;
+    float: left;
+}
+
+.x-button{
+    position: absolute;
+    bottom:15.4%;
+    right:0%;
+    width:5%;
+    height:7%;
+    background-image:url('../img/뒤로가기.png');
+    background-size: 100% 100%;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
 }
 
 .penta{
@@ -832,4 +850,46 @@
     background-color: white;
     text-align: center;
     font-size: 5vw;
+}
+
+.mini-search{
+    position: fixed;
+    bottom:3%;
+    left:3%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: url('../img/검색버튼.png');
+    background-size: 100% 100%;
+    box-shadow: 1px 1px 3px 1px #5b5c5e;
+}
+
+.mini-search1{
+    position: absolute;
+    bottom: 3%;
+    left: 1.5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: url('../img/검색버튼.png');
+    background-size: 100% 100%;
+    box-shadow: 1px 1px 3px 1px #5b5c5e;
+    z-index: 999;
+}
+
+.mini-search1:hover{
+    filter: brightness(0.6);
+}
+
+.fixleft{
+    position: fixed;
+    left:0%;
+    top:70px;
+    transition: 0.5s ease;
+}
+
+.fixleft1{
+    position: fixed;
+    left:0%;
+    transition: 0.5s ease;
 }

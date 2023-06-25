@@ -142,3 +142,8 @@ function fade_search(){
         alert('합격')
     }
 }
+
+function search_computer(){
+    var mini_box=document.getElementById('mini-search-box1')
+    mini_box.classList.toggle('fixleft1')
+}
