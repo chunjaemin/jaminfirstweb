@@ -1,13 +1,19 @@
 /********** Template CSS **********/
 @font-face {
-    font-family: 'NanumBarunpen';
+    font-family: '기본';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: '기본';
+    src: url('../font/calibri-regular.ttf');
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+
 body{
-    font-family: 'NanumBarunpen';
+    font-family: '기본';
 }
 
 :root {
