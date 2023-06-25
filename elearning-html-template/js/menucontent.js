@@ -95,11 +95,13 @@ window.addEventListener("scroll", (event) => {
 
 
 
-function searchBox(){
-  searchbox=document.getElementById('mini-search-box')
-  fadebox=document.getElementById('fade-box')
-  fadebox.classList.toggle('fixleft')
-  searchbox.classList.toggle('imagechange')
+
+
+function left_fade_function2(){
+  var fadebox2=document.getElementById('fade-box2')
+  var searchbox2=document.getElementById('mini-search2')
+  fadebox2.classList.toggle('fixleft')
+  searchbox2.classList.toggle('imagechange')
 }
 
 

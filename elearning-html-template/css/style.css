@@ -883,13 +883,13 @@
 
 .fixleft{
     position: fixed;
-    left:0%;
-    top:70px;
+    left:0% !important;
+    top:70px !important;
     transition: 0.5s ease;
 }
 
 .fixleft1{
     position: fixed;
-    left:0%;
+    left:0% !important;
     transition: 0.5s ease;
 }

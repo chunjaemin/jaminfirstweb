@@ -139,11 +139,19 @@ selectElement1.addEventListener("change", function () {
 
 function fade_search(){
     if (selectElement1.value=="21세" && selectElement2.value=="2학년"){
-        alert('합격')
+        alert('합격');
     }
 }
 
+function left_fade_function1(){
+    var fadebox1=document.getElementById('fade-box1')
+    var searchbox1=document.getElementById('mini-search1')
+    fadebox1.classList.toggle('fixleft')
+    searchbox1.classList.toggle('imagechange')
+  }
+
 function search_computer(){
-    var mini_box=document.getElementById('mini-search-box1')
-    mini_box.classList.toggle('fixleft1')
+    var mini_box=document.getElementById('mini-search-box1');
+    mini_box.classList.toggle('fixleft1');
+    document.querySelector('.fade-search-button').classList.toggle('imagechange');
 }
