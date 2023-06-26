@@ -68,58 +68,25 @@
     });
 
 
-    // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        items: 1,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        center: true,
-        margin: 24,
-        dots: true,
-        loop: true,
-        nav : false,
-        responsive: {
-            0:{
-                items:1
-            },
-            768:{
-                items:2
-            },
-            992:{
-                items:3
-            }
-        }
-    });
+
     
 })(jQuery);
 
 function alertt(){
     darkobject=document.querySelectorAll('.darkstart')
-   console.log(darkobject)
+    console.log(darkobject)
 }
 
 document.querySelectorAll('.darkstart').forEach(function(box) {
     box.addEventListener('touchstart', function() {
-      box.classList.toggle('dark');
+    box.classList.toggle('dark');
     });
     box.addEventListener('touchend', function() {
-      box.classList.toggle('dark');
+    box.classList.toggle('dark');
     });
-  });
+});
 
 
 function visible_click(){
@@ -133,7 +100,7 @@ var selectElement2 = document.getElementById("mySelect2");
 
 selectElement1.addEventListener("change", function () {
     if (selectElement1.value === "23세") {
-        alert("23세가 선택되었습니다");
+        alert("23세가 선택되었습니다")
     }
 });
 
@@ -148,10 +115,11 @@ function left_fade_function1(){
     var searchbox1=document.getElementById('mini-search1')
     fadebox1.classList.toggle('fixleft')
     searchbox1.classList.toggle('imagechange')
-  }
+}
 
 function search_computer(){
     var mini_box=document.getElementById('mini-search-box1');
     mini_box.classList.toggle('fixleft1');
     document.querySelector('.fade-search-button').classList.toggle('imagechange');
 }
+
