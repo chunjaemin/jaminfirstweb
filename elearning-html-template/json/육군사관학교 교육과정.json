@@ -1,0 +1,2332 @@
+{
+    "DESCRIPTION": {
+        "subj_dvs": "구분",
+        "subj_grd": "학년",
+        "subj_desc": "기초/필수/선택",
+        "subj_nm": "과목명"
+    },
+    "DATA": [
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "한국군사사"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "20세기 현대사"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "전략문화와 전쟁"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군사사상"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "작전술전역연구"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군사사의 題주제"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "심리학 연구설계"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "조직행동론"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "학습심리학"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "조직성원의 이해"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "사회심리학"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군대상담"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "산업 및 조직심리학"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "인지심리학"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "리더십 주요문제"
+        },
+        {
+            "subj_dvs": "리더십(심리)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "조직변화의 리더십"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "조직행동론"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "재무회계"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "마케팅관리"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "경영과학"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "생산관리"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "인적자원관리"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "경영전략"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군 리더십"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "프로젝트 관리"
+        },
+        {
+            "subj_dvs": "리더십(경영)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "리더십 개발 및 평가"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "미시경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "거시경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "계량경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국제경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "공공경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "게임이론 및 응용"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "환경경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "비용편익분석"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "국방경제학"
+        },
+        {
+            "subj_dvs": "응용경제",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "북한경제학"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "고전역학"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "전자기학"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "전자파물리"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "현대물리와 첨단기술"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "수리물리"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "해석역학"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "양자역학"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "열 및 통계물리"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "군사응용광학"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "전산물리"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "나노물리"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "고체물리"
+        },
+        {
+            "subj_dvs": "응용물리",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "핵물리"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "물리화학 I"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "유기화학 및 실험"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "생화학"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "군사화학"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "물리화학 II"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "재료화학"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "분석화학 및 실험"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "무기화학"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "생리화학"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "계산화학"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "유기합성 및 실험"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "환경화학 및 실험"
+        },
+        {
+            "subj_dvs": "응용화학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "화학실험 Project"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "해석개론"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "확률론"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "선형계획법"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "정보수학"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "확률정보론"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "수리통계"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "OR수학"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "통계적 방법론"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "암호학"
+        },
+        {
+            "subj_dvs": "운영분석",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "M&S"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "자료구조"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "컴퓨터구조"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "프로그래밍 언어론"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "운영체제"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "데이터베이스"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "알고리즘"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "인공지능"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "컴퓨터 네크워크"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "사이버전 정보기술"
+        },
+        {
+            "subj_dvs": "컴퓨터과학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "정보보안"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "열역학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "동역학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "신소재공학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "재료역학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "유체역학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "자동차공학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "로봇공학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "제어 및 계측"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "전산기계공학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "기계진동"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "설계 및 제작"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "최적에너지시스템설계"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "자동차공학"
+        },
+        {
+            "subj_dvs": "기계공학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "로봇공학"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "시스템엔지니어링"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "운용과학 및 실습"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "전투모델링 및 실습"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "무기시스템설계"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "시스템인터페이스 설계"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "네트워크 최적화 기법"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "국방사업관리"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "캡스톤 디자인"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "의사결정이론"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "분석 및 실습"
+        },
+        {
+            "subj_dvs": "시스템공학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "생산운영관리"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "기초회로이론 및 실험"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "신호와 시스템"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "전자기학"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "데이터통신"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "전자회로"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "컴퓨터공학"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "안테나공학"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "디지털제어"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "통신공학"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "디지털신호처리"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "무선통신시스템"
+        },
+        {
+            "subj_dvs": "전자공학",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "센서공학"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "응용역학 및 실험"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "상하수도공학"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "토질역학"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "구조역학"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "수공학 및 실험"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "측량공학 및 실습"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군사수문학 및 설계"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "철근콘크리트설계"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "건설시공관리 및 실습"
+        },
+        {
+            "subj_dvs": "토목공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "전시기반시설설계"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "응용역학 및 실험"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "상하수도공학"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "토질역학"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "구조역학"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "수공학 및 실험"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "환경공학 및 실험"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군사수문학 및 설계"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "대기환경론"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "토양지하수학"
+        },
+        {
+            "subj_dvs": "토목환경공학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "소음진동학"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "컴퓨터공학"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "컴퓨터네트워크"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "정보수학"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "무선통신보안"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "확률정보론"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "사이버전쟁사"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "정보보안"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "사이버전과 정보기술"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "암호학"
+        },
+        {
+            "subj_dvs": "사이버전융합",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "사이버전과 전쟁법"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "포스트 휴먼"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "과학기술과 사회의 이해"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "언어와 사회"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "포스트 휴먼 시대의 전쟁과 정의"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "현대문화이론과 군대문화"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "사회조사방법론"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "해석과 비평"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "생도주도 설계과목"
+        },
+        {
+            "subj_dvs": "군대사회문화연구",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "연구과제 실습"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "한국사"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "논리적 글쓰기"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "Academic English"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "미분적분학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "과학적 사고와 실험"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "프로그래밍 기초"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "통계와 이해"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "언어와 철학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "인간과 사회"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "자연과 생명"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "기술과 환경"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "영화와 함께하는 고전 함께 읽기"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "교육과 학습"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "수학의 세계"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "시스템적 사고와 설계"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "철학과 비판적 사고"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "경영혁신"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "벡터미적분학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "인간과 기계"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "인문학과 예술"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "현대 정치(권력과 선택)"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "생활 속 정보보안"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "사회기반시설"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "서양 명작의 이해와 감상"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "현대사회의 이해"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "4차산업과 인공지능"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "도시와 전쟁"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "미디어로 배우는 실용영어"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "동북아시아의 역사"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "세상을 설명하는 과학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "환경학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "영어발표와 연설"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사고전의 이해"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "생활 속의 물리"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "지구환경변화"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "영미문화의 이해"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "소비자와 시장"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "신소재 화학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "생활속의 전기전자"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "아시아문화의 이해"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "생활법률"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "생명과 화학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "창의공학설계"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "유럽문화의 이해"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "운동과 건강"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "체험하는 물리와 화학"
+        },
+        {
+            "subj_dvs": "교양",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "CAD"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "필수",
+            "subj_nm": "태권도 I"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "필수",
+            "subj_nm": "수영"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "필수",
+            "subj_nm": "전장움직임"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "필수",
+            "subj_nm": "경쟁스포츠 L&T(Learning &"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "선택",
+            "subj_nm": "축구 I"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "선택",
+            "subj_nm": "농구 I"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "선택",
+            "subj_nm": "테니스 I"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "1",
+            "subj_desc": "선택",
+            "subj_nm": "족구 I"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "필수",
+            "subj_nm": "태권도 II"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "필수",
+            "subj_nm": "전투지구력"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "필수",
+            "subj_nm": "전투근력"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "필수",
+            "subj_nm": "경쟁스포츠 L&T"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "선택",
+            "subj_nm": "축구 II"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "선택",
+            "subj_nm": "농구 II"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "선택",
+            "subj_nm": "테니스 II"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "2",
+            "subj_desc": "선택",
+            "subj_nm": "족구 II"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "격투술 III"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "권투 III"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군 체력관리론"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "경쟁스포츠 L&T"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "축구 III"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "농구 III"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "테니스 III"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "3",
+            "subj_desc": "선택",
+            "subj_nm": "족구 III"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "격투술 IV"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "권투 IV"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "전투체력지도"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "경쟁스포츠 L&T"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "축구 IV"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "농구 IV"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "테니스 IV"
+        },
+        {
+            "subj_dvs": "체육",
+            "subj_grd": "4",
+            "subj_desc": "선택",
+            "subj_nm": "족구 IV"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "헌법과 민주시민"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "전쟁의 역사"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "국가안보론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "리더십"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "국방ICT"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "미래무기체계"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "군사공학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "Military English"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "군사이론 I"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "군사이론 II"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군사전략 입문"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "한반도의 전쟁"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "북한의 이해"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "국방과 경재"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "국방전략세미나"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "스트레스와 건강"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "국방경영학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군사법"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군대문화의 이해"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "지휘관리세미나"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "전략적 국방분석"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "사이버전"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "레이저개론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군사화학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군사과학세미나"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "방호공학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군전자통신"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "무기공학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "군사지리기상"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "필수",
+            "subj_nm": "국방M&S"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "내전과 UNPKO의 이해"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "한미관계와 동맹"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "현대전쟁 연구"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군대혁신의 역사"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "한반도의 전쟁"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "역사 속 전쟁과 예술"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "경제전과 협상전략"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "이행기 경제와 경제체제론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국제법"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사심리학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군대와 정신병리"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "상담과 코"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "과학적 의사결정"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군대와 사회"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군대와 여성"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국방획득과 방위산업"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "전쟁법"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사실무영어실습"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "War in Media"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "미디어와 전략커뮤니케이션"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "전쟁철학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국방자료분석"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "수학적전투모델이론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "정보보안의 군사적 활용"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "머신러닝의 국방활용"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "핵에너지 개론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "레일건 이론 및 설계"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사생리"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "WMD 이해와 실제 I-화생무기"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "WMD 이해와 실제 II-핵무기'"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군 위험물 취급과 안전관리"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "정보보호 알고리즘"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사암호의 이해"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국방자료시각화"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사음향학"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "우주의 군사적 활용"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "인공지능과 무기설계"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "무기인터페이스"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "전투모의이론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군사OR"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국방로봇"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "전투차량"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국방기술특론"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군재난관리"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "국방지형정보체계"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군환경관리"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "군안전관리"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "C4ISR"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "전자감시체계"
+        },
+        {
+            "subj_dvs": "군사학",
+            "subj_grd": "",
+            "subj_desc": "선택",
+            "subj_nm": "전술통신네트워크"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "게임이론"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "국제관계의 이해"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "심리학"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "정치경제의 이해"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "양적데이터 분석"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "초급 외국어"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "논리학"
+        },
+        {
+            "subj_dvs": "일반학(인문)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "지역학"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "일반물리학"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "일반화학"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "응용물리학"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "공업수학"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "공학개론"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "미분방정식"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "선형대수학"
+        },
+        {
+            "subj_dvs": "일반학(자연)",
+            "subj_grd": "",
+            "subj_desc": "기초",
+            "subj_nm": "기초 알고리즘"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "한국문학사"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "철학원전 세미나"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "역사의 해석과 쟁점"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "한국전쟁문학론"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "가치론과 군 직업윤리"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군대와 한국문학"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "포스트휴먼 시대 전쟁과 정의"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "전쟁과 평화사상연구"
+        },
+        {
+            "subj_dvs": "군사인문",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "언어와 사회"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "전쟁문학"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "Academic English (Wr"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "영미문화연구"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군사관계 등 번역연습"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "언어학습자를 위한 언어의 이해"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "고급군사영어회화"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "미국군사연구"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "고급영작문"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "시사영어"
+        },
+        {
+            "subj_dvs": "군사영어",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "실무군사영어"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "중급 외국어"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "외국지역 역사문화 연구"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "외국지역의 이해"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "외국어 회화"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "외국지역 정치사회 연구"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "문화 다양성의 이해"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "시사문제 연구"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "외국지역 군사 연구"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군사 외국어"
+        },
+        {
+            "subj_dvs": "지역학",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "동북아/유럽 안보정세 이해"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국제관계론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "외교정책론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국제기구론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국제분쟁론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "한미안보동맹론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국제법"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "한국국방정책론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "국제안보협력론"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "동북아지역연구"
+        },
+        {
+            "subj_dvs": "국제관계(안보)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군비통제론"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군형법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군사행정법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국가조직법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군형법 사례연습"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "국제법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군사행정법 실무"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "국제법2"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "국제형사법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "국가안보와 법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "통일과 법"
+        },
+        {
+            "subj_dvs": "국제관계(법학)",
+            "subj_grd": "4",
+            "subj_desc": "필수",
+            "subj_nm": "군인기본법"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군사사방법론"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "군사제도사"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "근대국가와 전쟁"
+        },
+        {
+            "subj_dvs": "군사사",
+            "subj_grd": "3",
+            "subj_desc": "필수",
+            "subj_nm": "무기발달사"
+        }
+    ]
+}
