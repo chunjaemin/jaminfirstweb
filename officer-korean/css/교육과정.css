@@ -11,6 +11,58 @@
     background-color: rgb(138, 138, 141);
 }
 
+.learn-container{
+    width:100%;
+    aspect-ratio: 1/0.6;
+    background-color: bisque;
+    display: flex;
+}
+
+.learn-left-container{
+    position: relative;
+    width:30%;
+    height:100%;
+}
+
+
+.l-select1{
+    position:absolute;
+    top:10%;
+    left:10%;
+    width:80%;
+}
+
+.l-select2{
+    position:absolute;
+    top:30%;
+    left:10%;
+    width:80%;
+    aspect-ratio: 10/1;
+}
+
+
+.learn-left-content2{
+    width:80%;
+    aspect-ratio: 10/1;
+}
+
+.learn-right-container{
+    position: relative;
+    width:70%;
+    height:100%;
+    background-color: rgb(194, 185, 137);
+}
+
+.learn-right-content{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: bisque;
+    width:80%;
+    height:80%;
+    overflow: scroll;
+}
+
 tr{
     border: solid black 1px;
 }
@@ -35,3 +87,5 @@ td{
 .table4{
     display: none;    
 }
+
+
