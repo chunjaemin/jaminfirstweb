@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 상단메뉴바 링크-->
+    <link href="css/header.css" rel="stylesheet">
+
+    <!-- 상단메뉴바 링크-->
+    <link href="css/사관학교임시.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Header, Footer 삽입용 스크립트 -->
+    <script src="js/includeHTML.js"></script>
+</head>
+
+<body>
+    <!-- Header, Footer 스크립트 호출 -->
+    <div include-html="header.html"></div>
+    <script>includeHTML();</script>
+
+
+    <!--배너이미지-->
+    <div class="d-none d-md-block container-fluid bg-primary py-5 mb-3 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">사관학교</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-none container-fluid bg-primary py-5 page-header-m">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">사관학교</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--초록색 얇은 탑바-->
+    <!--<div class="top-bar"></div>-->
+    <!-- 이거 넣을거면 위에 세팅값 조정해야되서 잠시 빼둠-->
+
+
+    <!--컨텐츠메뉴-->
+    <!--모바일-->
+    <div class="d-md-none">
+        <!--서브메뉴창-->
+        <div class="content-menu1 darkstart" onclick="visible_click1()">
+            <p class="menu-title">지원정보</p>
+        </div>
+        <div id="content1" class="content-menu-content1 invisible1 none_visible" >
+            <div class="main-box-m d-md-none">
+                <div class="main-1-m">
+                    <div class="main-container-m">
+                        <a href="교육과정.html">api테스트 링크에용</a>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-menu2 darkstart" onclick="visible_click2()">
+            <p class="menu-title">임관병과</p>
+        </div>
+        <div  id="content2" class="content-menu-content2 invisible2 none_visible" >
+            <div class="main-box-m d-md-none">
+                <div class="main-1-m">
+                    <div class="main-container-m">
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-menu3 darkstart" onclick="visible_click3()">
+            <p class="menu-title">대우 및 특전</p>
+        </div>
+        <div id="content3" class="content-menu-content3 invisible3 none_visible" >
+            <div class="main-box-m d-md-none">
+                <div class="main-1-m">
+                    <div class="main-container-m">
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                        <div class="main-content-m"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="fade-box2" class="left-fade-box d-md-none">
+        <div class="faed-box-wrapper">
+            <p class="f-p">맞춤형 검색</p>
+            <div class="fade-box-content">
+                <select id="mySelect1" class="select1">
+                    <option disabled selected>나이</option>
+                    <option value="20세">20세</option>
+                    <option value="21세">21세</option>
+                    <option value="22세">22세</option>
+                    <option value="23세">23세</option>
+                </select>
+            </div>
+
+            <div class="fade-box-content">
+                <select id="mySelect2" class="select2">
+                    <option disabled selected>학년</option>
+                    <option value="1학년">1학년</option>
+                    <option value="2학년">2학년</option>
+                    <option value="3학년">3학년</option>
+                    <option value="4학년">4학년</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div id=mini-search2 class="mini-search d-md-none darkstart" onclick="left_fade_function2()"></div>
+    <!--모바일 끝-->
+
+    
+    
+    <div class="bottom-fixed-bar d-none d-md-block">
+        <div class="bottom-left-menu"></div>
+        <div class="bottom-menu">
+            <p class="bottom-word">대우및특전</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">임관병과</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">지원정보</p>
+        </div>
+        <div class="bottom-search"></div>
+    </div>
+
+
+    <div class="main-box d-none d-md-block">
+        <div class="main-1">
+            <div class="main-title">
+                <p>지원정보</p>
+            </div>
+            <div class="main-content">
+                <div class="left-container">
+                    <div class="left-content-first"><p class="left-p">지원자격</p></div>
+                    <div class="left-content"><p class="left-p">모집시기</p></div>
+                    <div class="left-content"><p class="left-p-special">의무<br>복무기간</p></div>
+                    <div class="left-content"><p class="left-p">선발시험</p></div>
+                    <div class="left-content"><p class="left-p">지원서접수</p></div>
+                    <div class="left-content"><p class="left-p">안내및문의</p></div>
+                </div>
+                <div class="right-container">
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-1">
+            <div class="main-title">
+                <p>임관병과</p>
+            </div>
+            <div class="main-content">
+                <div class="left-container">
+                    <div class="left-content-first"><p class="left-p">육군</p></div>
+                    <div class="left-content"><p class="left-p">해군</p></div>
+                    <div class="left-content"><p class="left-p">공군</p></div>
+                </div>
+                <div class="right-container">
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                    <div class="right-content"><p class="right-p">내용</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-1">
+            <div class="main-title">
+                <p>지원정보</p>
+            </div>
+            <div class="main-content">
+                <div class="left-container">
+                    <div class="left-content-first"><p class="left-p">지원자격</p></div>
+                    <div class="left-content"><p class="left-p">모집시기</p></div>
+                    <div class="left-content"><p class="left-p-special">의무<br>복무기간</p></div>
+                    <div class="left-content"><p class="left-p">선발시험</p></div>
+                    <div class="left-content"><p class="left-p">지원서접수</p></div>
+                    <div class="left-content"><p class="left-p">안내및문의</p></div>
+                </div>
+                <div class="right-container">
+                    <div class="right-content"><p class="right-p">안내및문의</p></div>
+                    <div class="right-content"><p class="right-p">안내및문의</p></div>
+                    <div class="right-content"><p class="right-p">안내및문의</p></div>
+                    <div class="right-content"><p class="right-p">안내및문의</p></div>
+                    <div class="right-content"><p class="right-p">안내및문의</p></div>
+                    <div class="right-content"><p class="right-p">안내및문의</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/menucontent.js"></script>
+</body>
+
+</html>
