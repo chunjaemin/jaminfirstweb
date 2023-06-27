@@ -11,6 +11,13 @@
     background-color: rgb(138, 138, 141);
 }
 
+tr{
+    border: solid black 1px;
+}
 
+td{
+    border: solid black 1px;
+    margin: 1px;
+}
 
 
