@@ -40,6 +40,19 @@
     aspect-ratio: 10/1;
 }
 
+.select-button{
+    position: absolute;
+    top:50%;
+    left: 15%;
+    background-color: aliceblue;
+    width: 70%;
+    aspect-ratio: 2/1;
+    text-align: center;
+}
+
+.select-button:hover{
+    filter: brightness(0.5);
+}
 
 .learn-left-content2{
     width:80%;
@@ -74,18 +87,7 @@ td{
 
 .table1{
     display: none;
-}
-
-.table2{
-    display: none;    
-}
-
-.table3{
-    display: none;    
-}
-
-.table4{
-    display: none;    
+    width: 100%;
 }
 
 

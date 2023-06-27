@@ -98,7 +98,6 @@ function loadJSON() {
         .catch(error => console.error(error));
 }
 
-loadJSON()
 
 function a_army_1(){
     return fetch('json/육군사관학교 교육과정.json')
@@ -118,6 +117,8 @@ function a_army_1(){
         });
 
         var table = document.getElementById('table1');
+        table.style.setProperty('display','block','important')
+        
         for (var i = 0; i < sub1.length; i++) {
             var row = table.insertRow();
             var cell1 = row.insertCell(0);
@@ -150,7 +151,9 @@ function a_army_2(){
             }
         });
 
-        var table = document.getElementById('table2');
+        var table = document.getElementById('table1');
+        table.style.setProperty('display','block','important')
+
         for (var i = 0; i < sub2.length; i++) {
             var row = table.insertRow();
             var cell1 = row.insertCell(0);
@@ -183,7 +186,9 @@ function a_army_3(){
             }
         });
 
-        var table = document.getElementById('table3');
+        var table = document.getElementById('table1');
+        table.style.setProperty('display','block','important')
+
         for (var i = 0; i < sub3.length; i++) {
             var row = table.insertRow();
             var cell1 = row.insertCell(0);
@@ -216,8 +221,10 @@ function a_army_4(){
             }
         });
 
-        var table = document.getElementById('table4');
-        for (var i = 0; i < sub3.length; i++) {
+        var table = document.getElementById('table1');
+        table.style.setProperty('display','block','important')
+
+        for (var i = 0; i < sub4.length; i++) {
             var row = table.insertRow();
             var cell1 = row.insertCell(0);
             var cell2 = row.insertCell(1);
@@ -230,4 +237,24 @@ function a_army_4(){
         }
     })
     .catch(error => console.error(error));
+}
+
+
+var selectElement1 = document.getElementById("Select1");
+var selectElement2 = document.getElementById("Select2");
+
+
+function select_search(){
+    if (selectElement2.value=="1학년"){
+        a_army_1();
+    }
+    if (selectElement2.value=="2학년"){
+        a_army_2();
+    }
+    if (selectElement2.value=="3학년"){
+        a_army_3();
+    }
+    if (selectElement2.value=="4학년"){
+        a_army_4();
+    }
 }
