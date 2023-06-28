@@ -40,6 +40,16 @@
     aspect-ratio: 10/1;
 }
 
+.l-select3{
+    display: none;
+    position:absolute;
+    top:30%;
+    left:10%;
+    width:80%;
+    aspect-ratio: 10/1;
+}
+
+
 .select-button{
     position: absolute;
     top:50%;

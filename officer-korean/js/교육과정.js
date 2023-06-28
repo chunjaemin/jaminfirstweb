@@ -219,7 +219,7 @@ function b_army_2() {
             var array2 = [];
 
             testData.DATA.forEach(item => {
-                if (item.agrd === "2") {
+                if (item.agrd === "2" && item.aessntl !="" && item.aessntl != "-") {
                     var array1 = [];
                     array1.push(item.agrd); //학년
                     array1.push(item.asmstr); //학기
@@ -275,7 +275,7 @@ function b_army_3() {
             var array2 = [];
 
             testData.DATA.forEach(item => {
-                if (item.agrd === "3") {
+                if (item.agrd === "3" && item.aessntl !="" && item.aessntl != "-") {
                     var array1 = [];
                     array1.push(item.agrd); //학년
                     array1.push(item.asmstr); //학기
@@ -331,7 +331,7 @@ function b_army_4() {
             var array2 = [];
 
             testData.DATA.forEach(item => {
-                if (item.agrd === "4") {
+                if (item.agrd === "4" && item.aessntl !="" && item.aessntl != "-") {
                     var array1 = [];
                     array1.push(item.agrd); //학년
                     array1.push(item.asmstr); //학기
@@ -409,3 +409,12 @@ function select_search() {
         b_army_4();
     }
 }
+
+selectElement1.addEventListener("change", function () {
+    var selectElement3 = document.getElementById('Select3');
+    if (selectElement1.value === "해군사관학교") {
+        selectElement3.style.setProperty('display', 'block', 'important');
+    } else {
+        selectElement3.style.setProperty('display', 'none', 'important');
+    }
+});
