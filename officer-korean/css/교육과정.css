@@ -57,7 +57,12 @@
     background-color: aliceblue;
     width: 70%;
     aspect-ratio: 2/1;
-    text-align: center;
+}
+
+.select-p1{
+    position: absolute;
+    top:35%;
+    left:34%;
 }
 
 .select-button:hover{
