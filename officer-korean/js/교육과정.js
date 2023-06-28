@@ -379,37 +379,140 @@ function b_army_4() {
         })
 }
 
+//해군사관학교 로직//
+function c_army_1() {
+    return fetch('json/해군사관학교 교육과정.json')
+        .then(response => response.json())
+        .then(data => {
+            testData = data;
+            var array2 = [];
+
+            testData.DATA.forEach(item => {
+                if (item.n_mjr_dvs == "제1전공") {
+                    var array1 = [];
+                    array1.push(item.n_mjr_dvs); //학년
+                    array1.push(item.n_mjr_nm); //과목구분
+                    array1.push(item.n_subj_nm); //과목명
+                    array1.push(item.n_subj_dvs); //전공구분
+                    array2.push(array1);
+                }
+            });
+
+            var table1 = document.getElementById('table1');
+            var table2 = document.getElementById('table2');
+            var table3 = document.getElementById('table3');
+
+            var rowCount = table3.rows.length;
+            for (var i = rowCount - 1; i > 0; i--) {
+                table3.deleteRow(i);
+            }
+
+            for (var i = 0; i < array2.length; i++) {
+                var row = table3.insertRow();
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                cell1.innerHTML = array2[i][0];
+                cell2.innerHTML = array2[i][1];
+                cell3.innerHTML = array2[i][2];
+                cell4.innerHTML = array2[i][3];
+            }
+            table1.style.setProperty('display', 'none', 'important')
+            table2.style.setProperty('display', 'none', 'important')
+            table3.style.setProperty('display', 'block', 'important')
+        })
+}
+
+function c_army_2() {
+    return fetch('json/해군사관학교 교육과정.json')
+        .then(response => response.json())
+        .then(data => {
+            testData = data;
+            var array2 = [];
+
+            testData.DATA.forEach(item => {
+                if (item.n_mjr_dvs == "제2전공") {
+                    var array1 = [];
+                    array1.push(item.n_mjr_dvs); //학년
+                    array1.push(item.n_mjr_nm); //과목구분
+                    array1.push(item.n_subj_nm); //과목명
+                    array1.push(item.n_subj_dvs); //전공구분
+                    array2.push(array1);
+                }
+            });
+
+            var table1 = document.getElementById('table1');
+            var table2 = document.getElementById('table2');
+            var table3 = document.getElementById('table3');
+
+            var rowCount = table3.rows.length;
+            for (var i = rowCount - 1; i > 0; i--) {
+                table3.deleteRow(i);
+            }
+
+            for (var i = 0; i < array2.length; i++) {
+                var row = table3.insertRow();
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                cell1.innerHTML = array2[i][0];
+                cell2.innerHTML = array2[i][1];
+                cell3.innerHTML = array2[i][2];
+                cell4.innerHTML = array2[i][3];
+            }
+            table1.style.setProperty('display', 'none', 'important')
+            table2.style.setProperty('display', 'none', 'important')
+            table3.style.setProperty('display', 'block', 'important')
+        })
+}
+
 var selectElement1 = document.getElementById("Select1");
 var selectElement2 = document.getElementById("Select2");
-
+var selectElement3 = document.getElementById("Select3");
 
 function select_search() {
+    //육군//
     if (selectElement1.value == '육군사관학교' && selectElement2.value == "1학년") {
         a_army_1();
     }
-    if (selectElement1.value == '육군사관학교' && selectElement2.value == "2학년") {
+    else if (selectElement1.value == '육군사관학교' && selectElement2.value == "2학년") {
         a_army_2();
     }
-    if (selectElement1.value == '육군사관학교' && selectElement2.value == "3학년") {
+    else if (selectElement1.value == '육군사관학교' && selectElement2.value == "3학년") {
         a_army_3();
     }
-    if (selectElement1.value == '육군사관학교' && selectElement2.value == "4학년") {
+    else if (selectElement1.value == '육군사관학교' && selectElement2.value == "4학년") {
         a_army_4();
     }
-    if (selectElement1.value == '공군사관학교' && selectElement2.value == "1학년") {
+
+    //공군//
+    else if (selectElement1.value == '공군사관학교' && selectElement2.value == "1학년") {
         b_army_1();
     }
-    if (selectElement1.value == '공군사관학교' && selectElement2.value == "2학년") {
+    else if (selectElement1.value == '공군사관학교' && selectElement2.value == "2학년") {
         b_army_2();
     }
-    if (selectElement1.value == '공군사관학교' && selectElement2.value == "3학년") {
+    else if (selectElement1.value == '공군사관학교' && selectElement2.value == "3학년") {
         b_army_3();
     }
-    if (selectElement1.value == '공군사관학교' && selectElement2.value == "4학년") {
+    else if (selectElement1.value == '공군사관학교' && selectElement2.value == "4학년") {
         b_army_4();
     }
+
+    //해군//
+    else if (selectElement1.value == '해군사관학교' && selectElement3.value == "제1전공") {
+        c_army_1();
+    }
+    else if (selectElement1.value == '해군사관학교' && selectElement3.value == "제2전공") {
+        c_army_2();
+    }
+
 }
 
+
+//해군사관학교로 바꾸면 옵션칸 바뀌는 로직//
 selectElement1.addEventListener("change", function () {
     var selectElement3 = document.getElementById('Select3');
     if (selectElement1.value === "해군사관학교") {
