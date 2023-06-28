@@ -910,3 +910,13 @@ body{
     left:0% !important;
     transition: 0.5s ease;
 }
+
+.banner-p{
+    font-size:6vw;
+    font-weight: 700;
+}
+
+.banner-p-m{
+    font-size:6vh;
+    font-weight: 700;
+}
