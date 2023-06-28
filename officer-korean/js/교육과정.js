@@ -117,7 +117,11 @@ function a_army_1(){
         });
 
         var table = document.getElementById('table1');
-        table.style.setProperty('display','block','important')
+
+        var rowCount = table.rows.length;
+        for (var i = rowCount - 1; i > 0; i--) {
+            table.deleteRow(i);
+        }
         
         for (var i = 0; i < sub1.length; i++) {
             var row = table.insertRow();
@@ -130,8 +134,8 @@ function a_army_1(){
             cell3.innerHTML = sub_nm1[i];
             cell4.innerHTML = sub_select1[i];
         }
+        table.style.setProperty('display','block','important')
     })
-    .catch(error => console.error(error));
 }
 
 function a_army_2(){
@@ -152,7 +156,10 @@ function a_army_2(){
         });
 
         var table = document.getElementById('table1');
-        table.style.setProperty('display','block','important')
+        var rowCount = table.rows.length;
+        for (var i = rowCount - 1; i > 0; i--) {
+            table.deleteRow(i);
+        }
 
         for (var i = 0; i < sub2.length; i++) {
             var row = table.insertRow();
@@ -165,8 +172,8 @@ function a_army_2(){
             cell3.innerHTML = sub_nm2[i];
             cell4.innerHTML = sub_select2[i];
         }
+        table.style.setProperty('display','block','important')
     })
-    .catch(error => console.error(error));
 }
 
 function a_army_3(){
@@ -187,7 +194,10 @@ function a_army_3(){
         });
 
         var table = document.getElementById('table1');
-        table.style.setProperty('display','block','important')
+        var rowCount = table.rows.length;
+        for (var i = rowCount - 1; i > 0; i--) {
+            table.deleteRow(i);
+        }
 
         for (var i = 0; i < sub3.length; i++) {
             var row = table.insertRow();
@@ -200,8 +210,8 @@ function a_army_3(){
             cell3.innerHTML = sub_nm3[i];
             cell4.innerHTML = sub_select3[i];
         }
+        table.style.setProperty('display','block','important')
     })
-    .catch(error => console.error(error));
 }
 
 function a_army_4(){
@@ -222,7 +232,11 @@ function a_army_4(){
         });
 
         var table = document.getElementById('table1');
-        table.style.setProperty('display','block','important')
+
+        var rowCount = table.rows.length;
+        for (var i = rowCount - 1; i > 0; i--) {
+            table.deleteRow(i);
+        }
 
         for (var i = 0; i < sub4.length; i++) {
             var row = table.insertRow();
@@ -235,8 +249,8 @@ function a_army_4(){
             cell3.innerHTML = sub_nm4[i];
             cell4.innerHTML = sub_select4[i];
         }
+        table.style.setProperty('display','block','important')
     })
-    .catch(error => console.error(error));
 }
 
 
