@@ -121,6 +121,7 @@
     aspect-ratio: 5/1;
     background-color: white;
     z-index: 2;
+    display:none;
 }
 
 .top-menu1{
@@ -140,5 +141,14 @@
 
 .top-mainmenu-box{
     width:100%;
-    
+    height: 70px;
+}
+
+.c-logo-box{
+    position:absolute;
+    top:15px;
+    left:14%;
+    float:left;
+    width:100%;
+    height:70px;
 }
