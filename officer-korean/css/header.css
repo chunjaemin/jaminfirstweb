@@ -97,9 +97,10 @@
 }
 
 .logo-image{
+    margin-top: 15px;
+    margin-left: 15px;
     height:50%;
-    width: 100PX;
-    margin-left: -13%;
+    width: 100%;
 }
 
 .logo-image-m{
@@ -145,10 +146,25 @@
 }
 
 .c-logo-box{
-    position:absolute;
-    top:15px;
-    left:14%;
     float:left;
-    width:100%;
+    width:100px;
     height:70px;
+}
+
+.c-right-menu-container{
+    float:right;
+    width:50%;
+    height:100%;
+    border: 1px black solid;
+}
+
+.c-right-menu{
+    float:right;
+    width:25%;
+    height:100%;
+    border: 1px black solid;
+}
+
+.c-right-menu:hover{
+    
 }
