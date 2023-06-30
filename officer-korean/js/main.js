@@ -35,8 +35,16 @@ function search_computer() {
     mini_box.classList.toggle('fixleft1');
 }
 
+window.onload = function() {
+    document.getElementById('c-right-menu-container').addEventListener('mouseover', function () {
+        var menu_hide = document.getElementById('mouseover1');
+        menu_hide.style.setProperty('display', 'block', 'important');
+    });
 
-document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('c-right-menu-container').addEventListener('mouseout', function () {
+        var menu_hide = document.getElementById('mouseover1');
+        menu_hide.style.setProperty('display', 'none', 'important');
+    });
 
     document.querySelectorAll('.darkstart').forEach(function (box) {
         box.addEventListener('touchstart', function () {
@@ -46,16 +54,4 @@ document.addEventListener('DOMContentLoaded', function () {
             box.classList.toggle('dark');
         });
     });
-    
-
-    var menu = document.querySelector('.c-right-menu-container');
-    var menu_hide = document.querySelector('.top-menu-container');
-
-    menu.addEventListener('mouseover', function () {
-        menu_hide.style.setProperty('display', 'block', 'important');
-    });
-
-    menu.addEventListener('mouseout', function () {
-        menu_hide.style.setProperty('display', 'none', 'important');
-    });
-});
+  };
