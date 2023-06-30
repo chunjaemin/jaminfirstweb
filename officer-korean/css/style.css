@@ -740,14 +740,14 @@ body{
 
 .x-button{
     position: absolute;
-    bottom:15.4%;
-    right:0%;
-    width:5%;
-    height:7%;
+    bottom:10px;
+    right:10px;
+    width:10%;
+    aspect-ratio: 1/1;
     background-image:url('../img/뒤로가기.png');
     background-size: 100% 100%;
-    border-top-left-radius:15px;
-    border-bottom-left-radius:15px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 1px black;
 }
 
 .penta{
