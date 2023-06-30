@@ -36,15 +36,24 @@ function search_computer() {
 }
 
 window.onload = function() {
-    document.getElementById('c-right-menu-container').addEventListener('mouseover', function () {
-        var menu_hide = document.getElementById('mouseover1');
+    var menu_hide = document.getElementById('mouseover1');
+    var menu = document.getElementById('c-right-menu-container')
+    menu.addEventListener('mouseover', function () {
         menu_hide.style.setProperty('display', 'block', 'important');
     });
 
-    document.getElementById('c-right-menu-container').addEventListener('mouseout', function () {
-        var menu_hide = document.getElementById('mouseover1');
+    menu.addEventListener('mouseout', function () {
         menu_hide.style.setProperty('display', 'none', 'important');
     });
+
+    menu_hide.addEventListener('mouseover', function () {
+        menu_hide.style.setProperty('display', 'block', 'important');
+    });
+
+    menu_hide.addEventListener('mouseout', function () {
+        menu_hide.style.setProperty('display', 'none', 'important');
+    });
+
 
     document.querySelectorAll('.darkstart').forEach(function (box) {
         box.addEventListener('touchstart', function () {
