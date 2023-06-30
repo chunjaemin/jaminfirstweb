@@ -129,7 +129,6 @@
     float:right;
     width:70%;
     height:100%;
-    text-align: center;
 }
 
 .top-menu1{
@@ -142,8 +141,10 @@
 
 .top-menu-mini{
     width:100%;
-    height:35px;
+    height:45px;
     margin:0;
+    display:flex;
+    align-items: center;
 }
 
 .top-menu-mini-empty{
@@ -156,8 +157,14 @@
     background-color: rgb(214, 214, 214);
 }
 
+.top-menu-mini-mini{
+    width:100%;
+    height:auto;
+}
+
 .top-menu-p{
     margin:0;
+    text-align: center !important;
 }
 
 .top-mainmenu-box{
