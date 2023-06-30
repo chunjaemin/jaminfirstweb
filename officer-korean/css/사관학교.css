@@ -43,27 +43,23 @@
 
 .left-container{
     width:10%;
-    aspect-ratio: 15/8;
+    height:100%;
     text-align: center;
 }
 
-.left-content-first{
-    position: relative;
-    aspect-ratio: 15/8;
-    margin-top: 1.5%;
-    font-size: 2vw;
-}
 
 .left-content{
     position: relative;
-    aspect-ratio: 15/8;
+    aspect-ratio: 1/0.765;
     font-size: 2vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
 }
 
 .left-p{
-    position: absolute;
-    top:30%;
-    left:15%;
+    width:100%;
+    text-align: center;
 }
 
 .left-p-special{
