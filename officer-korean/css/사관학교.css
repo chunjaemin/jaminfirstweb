@@ -134,10 +134,25 @@
     font-weight: 500;
 }
 
-.right-left-content2{
-    height:100%;
+.right-left-content2-1{
     width:95%;
+    height:192px;
     background-color: rgb(10, 106, 81);
+    margin-bottom: 4px;
+}
+
+.right-left-content2-2{
+    width:95%;
+    height:96px;
+    background-color: rgb(10, 106, 81);
+    margin-bottom: 4px;
+}
+
+.right-left-content2-3{
+    width:95%;
+    height:192px;
+    background-color: rgb(10, 106, 81);
+    margin-bottom: 4px;
 }
 
 .right-left-content3{
