@@ -125,25 +125,33 @@
     display:none;
 }
 
-.top-menu1{
+.top-menu-right-container{
     float:right;
-    width:10%;
+    width:70%;
     height:100%;
-    border-right: 2px solid black;
+    text-align: center;
+}
+
+.top-menu1{
+    float:left;
+    width:25%;
+    height:100%;
+    border-right: 1px solid black;
 }
 
 .top-menu2{
-    float:right;
-    width:10%;
+    float:left;
+    width:25%;
     height:100%;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .top-mainmenu-box{
     width:100%;
     height: 70px;
     text-align: center;
+    box-shadow: -1px -1px 2px 0.3px  rgb(187, 187, 187) inset;
 }
 
 .c-logo-box{
@@ -154,7 +162,7 @@
 
 .c-right-menu-container{
     float:right;
-    width:50%;
+    width:70%;
     height:100%;
 }
 
