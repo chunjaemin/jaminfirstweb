@@ -36,6 +36,11 @@
     text-align: center;
 }
 
+.menu-top-p{
+    font-size:2.5vw;
+    font-weight: 700;
+}
+
 .main-content{
     width:100%;
     display: flex;
@@ -44,7 +49,6 @@
 .left-container{
     width:10%;
     height:100%;
-    text-align: center;
 }
 
 
@@ -119,6 +123,15 @@
     height:99.2%;
     width:95%;
     background-color: rgb(59, 225, 173);
+    display: flex;
+    align-items: center;
+}
+
+.right-left-p{
+    width:100%;
+    text-align: center;
+    font-size:5vw;
+    font-weight: 500;
 }
 
 .right-left-content2{
