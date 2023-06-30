@@ -41,7 +41,7 @@ body{
 
 .banner-head{
     width:100%;
-    aspect-ratio: 4/1;
+    height:250px;
     background-image: url('../img/군인1.jpg');
     background-size: cover;
     background-position-y: -100px;
@@ -51,9 +51,11 @@ body{
 
 .banner-head-m{
     width:100%;
-    aspect-ratio: 3.5/1;
+    height:250px;
     background-image: url('../img/군인1.jpg');
     background-size: cover;
+    display: flex;
+    align-items:center;
 }
 
 .banner-p{
@@ -67,8 +69,9 @@ body{
     width:100%;
     font-size:6vh;
     font-weight: 700;
+    text-align: center;
+    margin-top: 85px;
 }
-
 
 
 .c-imaging{
