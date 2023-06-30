@@ -1,95 +1,212 @@
-/** 사관학교 **/
+/*** 사관학교 ***/
 
-.academy_selection_background
-{
-    /* 이미지 블러 처리 */
-    -webkit-filter: blur(4px); 
-    -moz-filter: blur(4px); 
-    -o-filter: blur(4px); 
-    -ms-filter: blur(4px); 
-    filter: blur(4px);
-    z-index: 0;
-
-    /* 크기 조절 */
-    width: 100%;
+.top-bar{
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-bottom: 10%;
+    width: 95%;
+    aspect-ratio: 1/0.015;
+    background-color: darkgreen;
 }
 
-.academy_selection
-{
-    position: absolute;
-    z-index: 1;
+.main-box{
+    width:100%;
 }
 
-.button_container
-{
-    position: absolute;
-    left: 5%;
-    top: 5%;
-    z-index: 1;
-
-    width:90%;
-    height:90%;
+.main-1{
+    background-color: aquamarine;
+    width:100%;
 }
 
-.academy_selection_button_row
-{
-    position: absolute;
-    z-index: 2;
-
-    width: 100%;
-    height: 100%;
-
-    left: 5%;
-}
-
-.academy_selection_button
-{
-    position: absolute;
-    z-index: 2;
-
-    cursor: pointer;
-
-}
-
-.academy_selection_button_name
-{
-    /* 위치 */
-    position: absolute;
-    top: 10%;
-    z-index: 3;
-
-    width: 100%;
-
-    /* 텍스트 */
-    font-size: 25pt;
-    color: white;
+.main-title{
+    width:93%;
+    aspect-ratio: 1/0.05;
+    background-color: aquamarine;
+    margin: auto;
     text-align: center;
 }
 
-/* 해군만 검정색 텍스트 */
-.academy_selection_button_name_navy
-{
-    /* 위치 */
+.main-content{
+    width:100%;
+    display: flex;
+}
+
+.left-container{
+    width:10%;
+    aspect-ratio: 15/8;
+    background-color: rgb(16, 57, 203);
+    text-align: center;
+}
+
+.left-content-first{
+    position: relative;
+    aspect-ratio: 15/8;
+    margin-top: 1.5%;
+    font-size: 2vw;
+}
+
+.left-content{
+    position: relative;
+    aspect-ratio: 15/8;
+    font-size: 2vw;
+}
+
+.left-p{
     position: absolute;
-    top: 10%;
-    z-index: 3;
+    top:30%;
+    left:15%;
+}
 
+.left-p-special{
+    position: absolute;
+    top:10%;
+    left:15%;
+}
+
+.right-container{
+    width: 90%;
+    display: block;
+}
+
+.right-right-container{
+    float:right;
+    width:85%;
+    height:100%;
+    background-color: antiquewhite;
+}
+
+.right-left-container{
+    float:left;
+    width:15%;
+    height:100%;
+    background-color: rgb(222, 136, 23);
+}
+
+.right-content{
+    margin-bottom: 4px;
+    aspect-ratio: 1/0.1;
+    background-color: rgb(46, 196, 146);
+    display: flex;
+    align-items: center;
+}
+
+.right-p{
+    margin:0;
+    width:100%;
+    text-align: center;
+}
+
+.right-left-content{
+    height:100%;
+    width:95%;
+    background-color: rgb(46, 196, 146);
+}
+
+/*** 모바일 컨텐츠***/
+
+.main-title-m{
+    width: 80%;
+    margin: auto;
+    aspect-ratio: 1/0.05;
+    background-color: rgb(89, 197, 159);
+    text-align: center;
+}
+
+.main-container-m{
+    width:80%;
+    margin: auto;
+}
+
+.main-content-m{
+    width:100%;
+    aspect-ratio: 1/0.5;
+    background-color: rgb(89, 197, 159);
+    margin-top: 2%;
+}
+
+.nav-item{
     width: 100%;
+    height: auto;
+}
 
-    /* 텍스트 */
-    font-size: 25pt;
+.content-menu1{
+    width:100%;
+    aspect-ratio: 1/0.07;
+    background-color:  aquamarine;
+    border: 1px solid black;
+}
+
+.content-menu2{
+    width:100%;
+    aspect-ratio: 1/0.07;
+    background-color:  aquamarine;
+    border: 1px solid black;
+}
+
+.content-menu3{
+    width:100%;
+    aspect-ratio: 1/0.07;
+    background-color:  aquamarine;
+    border: 1px solid black;
+}
+
+.content-menu-content1{
+    width:100%;
+    height: auto;
+}
+
+.content-menu-content2{
+    width:100%;
+    height: auto;
+}
+
+.content-menu-content3{
+    width:100%;
+    height: auto;
+}
+
+.testing{
+    width:100%;
     color: black;
-    text-align: center;
+    font-size: 4vw;
 }
 
-.academy_logo
-{
-    /* 위치 */
-    position: absolute;
-    
-    width: 60%;
-    height: 60%;
+.menu-title{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 700;
+    color:black;
+}
 
-    top: 27%;
-    right: 20%;
+.left-fade-box{
+    position: fixed;
+    left:-100%;
+    top:70px;
+    width:100%;
+    height:100%;
+    background-color: antiquewhite;
+    transition: 0.5s ease;
+}
+
+
+
+.imagechange{
+    background-image: url(../img/뒤로가기.png) !important;
+    background-size: 100% 100% !important;
+}
+
+
+.fade-box-title{
+    text-align: center;
+    font-size: 5.5vh;
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+.fade-box-p{
+    font-size: 3vh;
+    font-weight: 600;
+    margin-top: 15%;
+    margin-left: 13%;
 }
