@@ -9,14 +9,31 @@ var flag3 = document.querySelector('.flag3')
 var flag4 = document.querySelector('.flag4')
 var flag5 = document.querySelector('.flag5')
 
+
+//깃발 전부 삭제하는 함수
+function clear__search(){
+    flag1.style.setProperty('display','none','important')
+    flag2.style.setProperty('display','none','important')
+    flag3.style.setProperty('display','none','important')
+    flag4.style.setProperty('display','none','important')
+    flag5.style.setProperty('display','none','important')
+}
+
 function c_select_search() {
+    //기존에 있던 깃발 삭제
+    clear__search()
     //에러캐치
     if (c_inputbox.value <19000000){
         alert('생년월일을 올바르게 적어주세요')
     } 
-    //에러가 아닐시 실행
+    //에러가 아닐시 실행 조건에 맞게 깃발생성
     else {
-
+        military_army()
+        rotc()
+        b_officer_a()
+        b_officer_b()
+        s_officer()
+        pilot()
     }
 }
 
