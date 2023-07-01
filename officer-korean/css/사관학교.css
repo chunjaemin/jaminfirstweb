@@ -93,7 +93,9 @@
 
 .price-container{
     width:100%;
-    height:auto;
+    height:130px;
+    display: flex;
+    align-items: center;
 }
 
 .right-left-container{
