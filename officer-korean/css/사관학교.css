@@ -18,7 +18,7 @@
 }
 
 .background-m3{
-    background-color: rgb(162, 251, 221);
+    background-color: rgb(8, 29, 21);
 }
 
 .main-box{
@@ -30,10 +30,18 @@
 }
 
 .main-title{
-    width:93%;
+    width:100%;
     aspect-ratio: 1/0.05;
     margin: auto;
     text-align: center;
+}
+
+.main-title-price{
+    width:100%;
+    aspect-ratio: 1/0.03;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(9, 75, 56);
 }
 
 .menu-top-p{
@@ -81,6 +89,11 @@
     float:right;
     width:85%;
     height:100%;
+}
+
+.price-container{
+    width:100%;
+    height:auto;
 }
 
 .right-left-container{
