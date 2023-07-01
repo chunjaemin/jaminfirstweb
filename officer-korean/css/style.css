@@ -53,7 +53,7 @@ body{
 .banner-p1{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 15px;
     font-size:3vw;
     font-weight: 700;
 }
@@ -61,21 +61,21 @@ body{
 .banner-p2{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 15px;
     font-size:3vw;
     font-weight: 700;
 }
 
 .banner-p1-m{
     position: absolute;
-    left: 0;
+    left: 15px;
     font-size:2vh;
     font-weight: 700;
 }
 
 .banner-p2-m{
     position: absolute;
-    right: 0;
+    right: 15px;
     font-size:2vh;
     font-weight: 700;
 }
