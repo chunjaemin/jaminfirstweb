@@ -315,8 +315,9 @@ body{
     width:70%;
     aspect-ratio: 1/0.8;
     background-color: #7f9b19;
-    background-image: url("../img/군인2.jpg");
+    background-image: url("../img/군대검색배경1.jpg");
     background-size: cover;
+    background-position-y: -200px;
     float: left;
 }
 
@@ -334,10 +335,9 @@ body{
 
 .penta{
     position: absolute;
-    background-color: #334ad0;
+    border: 1px solid black;
     width:25%;
     height:40%;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);
 }
 
 .s1{
@@ -369,7 +369,7 @@ body{
     width: 100%;
     height:100%;
     background-color: white;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .ic-1{
@@ -499,4 +499,12 @@ body{
     background-image: url('../img/군대배너이미지1.jpg');
     background-size: cover;
     background-position-y: -50px;
+}
+
+.search-input-box{
+
+}
+
+.c-select{
+    
 }
