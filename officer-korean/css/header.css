@@ -17,9 +17,9 @@
 }
 .n-menu{
     position: absolute;
-    top:20px;
-    right:1%;
-    height: 35px;
+    top:24.5px;
+    right:5px;
+    height: 21px;
     margin-right: 3%;
     aspect-ratio: 1/1;
     background-image: url('../img/메뉴버튼.png');
@@ -29,7 +29,7 @@
 
 .n-logo-box{
     position: absolute;
-    top:17.5px;
+    top:21px;
     left:15px;
 }
 
@@ -97,15 +97,15 @@
 }
 
 .logo-image{
-    margin-top: 17.5px;
+    margin-top: 21px;
     margin-left: 15px;
     aspect-ratio: 1/0.375;
-    height:35px;
+    height:28px;
 }
 
 .logo-image-m{
     aspect-ratio: 1/0.375;
-    height:35px;
+    height:28px;
 }
 
 .m-menu-scroll{
