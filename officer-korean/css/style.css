@@ -35,7 +35,7 @@ body{
     position: relative;
     width:100%;
     aspect-ratio: 1/0.4;
-    background-image: url('../img/군인1.jpg');
+    background-image: url('../img/군인2.jpg');
     background-size: cover;
     background-position-y: -100px;
     display: flex;
@@ -45,7 +45,7 @@ body{
     position: relative;
     width:100%;
     aspect-ratio: 1/0.4;
-    background-image: url('../img/군인1.jpg');
+    background-image: url('../img/군인2.jpg');
     background-size: cover;
     display: flex;
 }
