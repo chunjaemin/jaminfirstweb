@@ -501,9 +501,17 @@ body{
     background-position-y: -50px;
 }
 
+.search-left-content{
+    width:100%;
+    aspect-ratio:1/1.468;
+    background-color: #334ad0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .search-right-container{
     position: absolute;
-    background-color: #dadce0;
     top: 5%;
     left:5%;
     width:90%;
@@ -519,6 +527,7 @@ body{
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(사관학교\).png');
     background-size: 100% 100%;
+    display: none;
 }
 
 .plag2{
@@ -526,6 +535,7 @@ body{
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(학군사관\).png');
     background-size: 100% 100%;
+    display: none;
 }
 
 .plag3{
@@ -533,6 +543,7 @@ body{
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(학사장교\).png');
     background-size: 100% 100%;
+    display: none;
 }
 
 .plag4{
@@ -540,6 +551,7 @@ body{
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(지원금\).png');
     background-size: 100% 100%;
+    display: none;
 }
 
 .plag5{
@@ -547,6 +559,7 @@ body{
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(조종준사관\).png');
     background-size: 100% 100%;
+    display: none;
 }
 
 .c-search-button{
