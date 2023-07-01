@@ -28,9 +28,6 @@
 }
 
 .n-logo-box{
-    position: absolute;
-    top:8%;
-    left:10px;
 }
 
 .n-box{
@@ -97,17 +94,17 @@
 }
 
 .logo-image{
-    margin-top: 15px;
-    margin-left: 15px;
-    height:50%;
-    width: 100%;
+    margin-top: 17.5px;
+    margin-left: 17.5px;
+    aspect-ratio: 1/0.375;
+    height:35px;
 }
 
 .logo-image-m{
-    margin-top: 12.5px;
-    margin-bottom: 12.5px;
+    margin-top: 17.5px;
+    margin-left: 17.5px;
+    aspect-ratio: 1/0.375;
     height:35px;
-    width: 100PX;
 }
 
 .m-menu-scroll{
