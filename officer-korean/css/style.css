@@ -501,10 +501,58 @@ body{
     background-position-y: -50px;
 }
 
+.search-right-container{
+    position: absolute;
+    background-color: #dadce0;
+    top: 5%;
+    left:5%;
+    width:90%;
+    height:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.plag1{
+    width:33%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/플래그\(사관학교\).png');
+    background-size: 100% 100%;
+}
+
+.plag2{
+    width:33%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/플래그\(조종장학생\).png');
+    background-size: 100% 100%;
+}
+
+.plag3{
+    width:33%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/플래그\(조종준사관\).png');
+    background-size: 100% 100%;
+}
+
+.plag4{
+    width:33%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/플래그\(지원금\).png');
+    background-size: 100% 100%;
+}
+
+.plag5{
+    width:33%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/플래그\(학군사관\).png');
+    background-size: 100% 100%;
+}
+
 .search-input-box{
 
 }
 
 .c-select{
-    
+
 }
