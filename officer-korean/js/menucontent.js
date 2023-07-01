@@ -54,10 +54,10 @@ window.addEventListener("scroll", (event) => {
   menu1ClientRect = menu1.getBoundingClientRect(); 
   content1ClientRect = content1.getBoundingClientRect(); 
   topnavbarClientRect = topnavbar.getBoundingClientRect(); 
-  if (menu1ClientRect.top < topnavbarClientRect.bottom && !content1.classList.contains('none_visible') && !menu1.classList.contains('fix1')) {
+  if (menu1ClientRect.top < 70 && !content1.classList.contains('none_visible') && !menu1.classList.contains('fix1')) {
     menu1.classList.add('fix1');
     content1.classList.add('basic-setting1');
-  } else if (menu1ClientRect.bottom < content1ClientRect.top && menu1.classList.contains('fix1')) {
+  } else if (menu1ClientRect.bottom+5 < content1ClientRect.top && menu1.classList.contains('fix1')) {
     menu1.classList.remove('fix1');
     content1.classList.remove('basic-setting1')
   }
@@ -69,7 +69,7 @@ window.addEventListener("scroll", (event) => {
   menu2ClientRect = menu2.getBoundingClientRect(); 
   content2ClientRect = content2.getBoundingClientRect(); 
   topnavbarClientRect = topnavbar.getBoundingClientRect(); 
-  if (menu2ClientRect.top < topnavbarClientRect.bottom && !content2.classList.contains('none_visible') && !menu2.classList.contains('fix2')) {
+  if (content2.top < 70 && !content2.classList.contains('none_visible') && !menu2.classList.contains('fix2')) {
     menu2.classList.add('fix2');
     content2.classList.add('basic-setting2');
   } else if (menu2ClientRect.bottom < content2ClientRect.top && menu2.classList.contains('fix2')) {
