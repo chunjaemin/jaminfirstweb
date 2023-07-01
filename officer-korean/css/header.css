@@ -28,6 +28,9 @@
 }
 
 .n-logo-box{
+    position: absolute;
+    top:17.5px;
+    left:15px;
 }
 
 .n-box{
@@ -95,14 +98,12 @@
 
 .logo-image{
     margin-top: 17.5px;
-    margin-left: 17.5px;
+    margin-left: 15px;
     aspect-ratio: 1/0.375;
     height:35px;
 }
 
 .logo-image-m{
-    margin-top: 17.5px;
-    margin-left: 17.5px;
     aspect-ratio: 1/0.375;
     height:35px;
 }
@@ -130,7 +131,7 @@
 
 .top-menu1{
     float:left;
-    width:25%;
+    width:20%;
     height:auto;
 }
 
@@ -181,7 +182,7 @@
 
 .c-right-menu{
     float:right;
-    width:25%;
+    width:20%;
     height:100%;
 
 }
