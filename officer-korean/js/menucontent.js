@@ -4,8 +4,7 @@
 function visible_click1(){
   if (menu1.classList.contains('fix1') && !content1.classList.contains('none_visible')){
     menu1.classList.remove('fix1');
-    content1.classList.remove('basic-setting')
-    window.scrollTo({top:239.382, behavior:'instant'})
+    content1.style.setProperty('margin-top',0, 'important');
   }
   document.querySelector('.invisible1').classList.toggle('none_visible');
 }
@@ -13,8 +12,7 @@ function visible_click1(){
 function visible_click2(){
   if (menu2.classList.contains('fix2') && !content2.classList.contains('none_visible')){
     menu2.classList.remove('fix2');
-    content2.classList.remove('basic-setting')
-    window.scrollTo({top:239.382, behavior:'instant'})
+    content2.style.setProperty('margin-top',0, 'important');
   }
   document.querySelector('.invisible2').classList.toggle('none_visible');
 }
@@ -22,8 +20,7 @@ function visible_click2(){
 function visible_click3(){
   if (menu3.classList.contains('fix3') && !content3.classList.contains('none_visible')){
     menu3.classList.remove('fix3');
-    content3.classList.remove('basic-setting')
-    window.scrollTo({top:239.382, behavior:'instant'})
+    content3.style.setProperty('margin-top',0, 'important');
   }
   document.querySelector('.invisible3').classList.toggle('none_visible');
 }
@@ -56,10 +53,10 @@ window.addEventListener("scroll", (event) => {
   topnavbarClientRect = topnavbar.getBoundingClientRect(); 
   if (menu1ClientRect.top < 70 && !content1.classList.contains('none_visible') && !menu1.classList.contains('fix1')) {
     menu1.classList.add('fix1');
-    content1.classList.add('basic-setting1');
+    content1.style.setProperty('margin-top',(menu1.clientHeight+5)+'px', 'important');
   } else if (menu1ClientRect.bottom+5 < content1ClientRect.top && menu1.classList.contains('fix1')) {
     menu1.classList.remove('fix1');
-    content1.classList.remove('basic-setting1')
+    content1.style.setProperty('margin-top',0, 'important');
   }
 });
 
@@ -69,12 +66,12 @@ window.addEventListener("scroll", (event) => {
   menu2ClientRect = menu2.getBoundingClientRect(); 
   content2ClientRect = content2.getBoundingClientRect(); 
   topnavbarClientRect = topnavbar.getBoundingClientRect(); 
-  if (content2.top < 70 && !content2.classList.contains('none_visible') && !menu2.classList.contains('fix2')) {
+  if (menu2ClientRect.top < 70 && !content2.classList.contains('none_visible') && !menu2.classList.contains('fix2')) {
     menu2.classList.add('fix2');
-    content2.classList.add('basic-setting2');
-  } else if (menu2ClientRect.bottom < content2ClientRect.top && menu2.classList.contains('fix2')) {
+    content2.style.setProperty('margin-top',(menu2.clientHeight+16.2)+'px', 'important');
+  } else if (menu2ClientRect.bottom+5 < content2ClientRect.top && menu2.classList.contains('fix2')) {
     menu2.classList.remove('fix2');
-    content2.classList.remove('basic-setting2')
+    content2.style.setProperty('margin-top',0, 'important');
   }
 });
 
@@ -84,12 +81,12 @@ window.addEventListener("scroll", (event) => {
   menu3ClientRect = menu3.getBoundingClientRect(); 
   content3ClientRect = content3.getBoundingClientRect(); 
   topnavbarClientRect = topnavbar.getBoundingClientRect(); 
-  if (menu3ClientRect.top < topnavbarClientRect.bottom && !content3.classList.contains('none_visible') && !menu3.classList.contains('fix3')) {
+  if (menu3ClientRect.top < 70 && !content3.classList.contains('none_visible') && !menu3.classList.contains('fix3')) {
     menu3.classList.add('fix3');
-    content3.classList.add('basic-setting3');
-  } else if (menu3ClientRect.bottom < content3ClientRect.top && menu3.classList.contains('fix3')) {
+    content3.style.setProperty('margin-top',(menu3.clientHeight+16.8)+'px', 'important');
+  } else if (menu3ClientRect.bottom+5 < content3ClientRect.top && menu3.classList.contains('fix3')) {
     menu3.classList.remove('fix3');
-    content3.classList.remove('basic-setting3')
+    content3.style.setProperty('margin-top',0, 'important');
   }
 });
 
