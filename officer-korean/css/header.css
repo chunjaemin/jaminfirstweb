@@ -124,7 +124,7 @@
 
 .top-menu-right-container{
     float:right;
-    width:70%;
+    width:50%;
     height:100%;
 }
 
@@ -132,7 +132,6 @@
     float:left;
     width:25%;
     height:auto;
-    border-left: 1px solid black;
 }
 
 
@@ -176,7 +175,7 @@
 
 .c-right-menu-container{
     float:right;
-    width:70%;
+    width:50%;
     height:100%;
 }
 
