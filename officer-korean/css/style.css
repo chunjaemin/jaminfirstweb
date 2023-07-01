@@ -524,14 +524,14 @@ body{
 .plag2{
     width:33%;
     aspect-ratio: 1/1;
-    background-image: url('../img/플래그\(조종장학생\).png');
+    background-image: url('../img/플래그\(학군사관\).png');
     background-size: 100% 100%;
 }
 
 .plag3{
     width:33%;
     aspect-ratio: 1/1;
-    background-image: url('../img/플래그\(조종준사관\).png');
+    background-image: url('../img/플래그\(학사장교\).png');
     background-size: 100% 100%;
 }
 
@@ -545,9 +545,10 @@ body{
 .plag5{
     width:33%;
     aspect-ratio: 1/1;
-    background-image: url('../img/플래그\(학군사관\).png');
+    background-image: url('../img/플래그\(조종준사관\).png');
     background-size: 100% 100%;
 }
+
 
 .search-input-box{
 
