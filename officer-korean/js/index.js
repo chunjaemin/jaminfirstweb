@@ -112,7 +112,7 @@ function s_officer(){
         flag4.style.setProperty('display','block','important');
         counting=counting+1;
     } 
-    else if (key ==4 && num >= 19970702 && num <= 20050702){
+    else if (key ==5 && num >= 19970702 && num <= 20050702){
         flag4.style.setProperty('display','block','important');
         counting=counting+1;
     }

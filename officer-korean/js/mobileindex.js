@@ -125,7 +125,7 @@ function ms_officer(){
         mflag4.style.setProperty('display','block','important');
         mcounting=mcounting+1;
     } 
-    else if (mkey ==4 && mnum >= 19970702 && mnum <= 20050702){
+    else if (mkey ==5 && mnum >= 19970702 && mnum <= 20050702){
         mflag4.style.setProperty('display','block','important');
         mcounting=mcounting+1;
     }
