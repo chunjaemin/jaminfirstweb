@@ -235,24 +235,44 @@
 }
 /*** 모바일 컨텐츠***/
 
-.main-title-m{
-    width: 80%;
-    margin: auto;
-    aspect-ratio: 1/0.05;
-    background-color: rgb(89, 197, 159);
-    text-align: center;
-}
 
 .main-container-m{
-    width:80%;
-    margin: auto;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-content-m{
-    width:100%;
-    aspect-ratio: 1/0.5;
+    width:80%;
+    height: auto;
     background-color: rgb(89, 197, 159);
     margin-top: 2%;
+
+}
+
+.main-title-m{
+    background-color: #15561a;
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+
+.main-middle{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title-m-p{
+    color:white;
+}
+
+.main-middle-m-p{
+    width:80%;
+    text-align: center;
 }
 
 .nav-item{
