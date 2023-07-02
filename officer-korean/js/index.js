@@ -57,7 +57,7 @@ function no_flag(){
 function military_army(){
     var num=parseInt(c_inputbox.value);
     var key = parseFloat(c_select.value);
-    if (num >= 20040102 && key >= 0){
+    if (num >= 20040102){
         flag1.style.setProperty('display','block','important');
         counting=counting+1;
     }

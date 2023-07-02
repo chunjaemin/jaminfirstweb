@@ -70,7 +70,7 @@ function mno_flag(){
 function mmilitary_army(){
     var mnum=parseInt(mc_inputbox.value);
     var mkey = parseFloat(mc_select.value);
-    if (mnum >= 20040102 && mkey >= 0){
+    if (mnum >= 20040102){
         mflag1.style.setProperty('display','block','important');
         mcounting=mcounting+1;
     }
