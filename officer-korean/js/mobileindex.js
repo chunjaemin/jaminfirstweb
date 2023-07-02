@@ -12,6 +12,18 @@ var mnoflag = document.querySelector('.no-flag-box-m');
 
 var mcounting = 0;
 
+var toggle_page = document.querySelector('.fade-result-box')
+
+//버튼누르면 페이지 등장
+function open_page(){
+    toggle_page.style.setProperty('left','0%','important')
+}
+
+//버튼누르면 페이지 퇴장
+function close_page(){
+    toggle_page.style.setProperty('left','-100%','important')
+}
+
 
 //깃발 전부 삭제하는 함수
 function mclear__search(){
@@ -40,6 +52,7 @@ function mc_select_search() {
         ms_officer();
         mpilot();
         mno_flag();
+        open_page()
     }
 }
 
@@ -47,7 +60,7 @@ function mc_select_search() {
 //아무것도 해당되지 않을 때
 function mno_flag(){
     if (mcounting==0){
-        mnoflag.style.setProperty('display','block','important');
+        mnoflag.style.setProperty('display','flex','important');
     }
 }
 

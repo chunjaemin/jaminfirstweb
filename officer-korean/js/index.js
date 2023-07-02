@@ -8,7 +8,7 @@ var flag2 = document.querySelector('.flag2');
 var flag3 = document.querySelector('.flag3');
 var flag4 = document.querySelector('.flag4');
 var flag5 = document.querySelector('.flag5');
-var noflag = document.querySelector('.no-flag-box');
+var noflag = document.querySelector('.fade-result-box');
 
 var counting = 0;
 
