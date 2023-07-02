@@ -344,12 +344,35 @@ body{
     box-shadow: 1px 1px 3px 1px black;
 }
 
+.no-flag-box{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    display: none;
+}
+
 .penta{
     position: absolute;
-    border: 1px solid black;
+    top:30%;
+    left:37%;
+    background-color: #000000;
+    opacity: 0.6;
     width:25%;
     height:40%;
+    clip-path: polygon(5% 0%,95% 0%,95% 60%,50% 100%,5% 60%);
 }
+
+.penta-p{
+    position: absolute;
+    top:70%;
+    left:37%;
+    font-weight: 700;
+    font-size: 1.9vw;
+    color: #000000;
+}
+
 
 .s1{
     top: 8%;

@@ -8,6 +8,9 @@ var flag2 = document.querySelector('.flag2')
 var flag3 = document.querySelector('.flag3')
 var flag4 = document.querySelector('.flag4')
 var flag5 = document.querySelector('.flag5')
+var noflag = document.querySelector('.no-flag-box')
+
+var counting 
 
 
 //깃발 전부 삭제하는 함수
@@ -17,11 +20,13 @@ function clear__search(){
     flag3.style.setProperty('display','none','important')
     flag4.style.setProperty('display','none','important')
     flag5.style.setProperty('display','none','important')
+    noflag.style.setProperty('display','none','important')
 }
 
 function c_select_search() {
     //기존에 있던 깃발 삭제
     clear__search()
+    counting=0
     //에러캐치
     if (c_inputbox.value <19000000){
         alert('생년월일을 올바르게 적어주세요')
@@ -34,6 +39,14 @@ function c_select_search() {
         b_officer_b()
         s_officer()
         pilot()
+        no_flag()
+    }
+}
+
+//아무것도 해당되지 않을 때
+function no_flag(){
+    if (counting==0){
+        noflag.style.setProperty('display','block','important')
     }
 }
 
