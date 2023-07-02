@@ -141,10 +141,10 @@
 
                 
                 <p class="search-left-content-p2-m text-black">생년월일</p>
-                <input id='c-inputbox'  class="search-input-box-m" type="text" maxlength="8" placeholder="생년월일 8자리">
+                <input id='c-inputbox-m'  class="search-input-box-m" type="text" maxlength="8" placeholder="생년월일 8자리">
 
                 <p class="search-left-content-p3-m text-black">학년</p>
-                <select id="c-select1" class="c-select-m">
+                <select id="c-select1-m" class="c-select-m">
                     <option disabled selected>학년</option>
                     <option value="-1">고등학교 졸업 이전</option>
                     <option value="0">고등학교 졸업 or 예정</option>
@@ -155,13 +155,18 @@
                     <option value="5">4년제 대학 졸업 or 예정</option>
                 </select>
 
-                <div class="c-search-button-m" onclick=""></div>
+                <div class="c-search-button-m" onclick="mc_select_search()"></div>
             </div>
         </div>
     </div>
 
-    <div class="fade-result-box">
+    <!--모바일 검색결과창-->
+    <div class="fade-result-box d-md-none">
         <div class="white-filter"></div>
+        <div class="no-flag-box-m">
+            <div class="penta-m"></div>
+            <p class="penta-p-m">지원가능한 곳이 없습니다.</p>
+        </div>
         <div class="fade-result-content">
             <div class="flag1-m"></div>
             <div class="flag2-m"></div> 
