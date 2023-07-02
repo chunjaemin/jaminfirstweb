@@ -48,7 +48,6 @@ function mc_select_search() {
         mmilitary_army();
         mrotc();
         mb_officer_a();
-        mb_officer_b();
         ms_officer();
         mpilot();
         mno_flag();
@@ -92,19 +91,12 @@ function mb_officer_a(){
     var mkey = parseFloat(mc_select.value);
     if (mnum >= 19990101 && mnum <= 20070101 && mkey >= 5){
         mflag3.style.setProperty('display','block','important');
-        mcounting=mcounting+0.5;
+        mcounting=mcounting+1;
     }
 }
 
 //학사장교-공군,해군일때 -올해9월에 지원이 있음 9월이후에 기존년도+1로 수정해주어야함
-function mb_officer_b(){
-    var mnum=parseInt(mc_inputbox.value);
-    var mkey = parseFloat(mc_select.value);
-    if (mnum >= 19980101 && mnum <= 20060101 && mkey >= 5){
-        mflag3.style.setProperty('display','block','important');
-        mcounting=mcounting+0.5;
-    }
-}
+
 
 //군가산복무지원 1학년
 //군가산복무지원 2학년
@@ -136,7 +128,7 @@ function ms_officer(){
 function mpilot(){
     var mnum=parseInt(mc_inputbox.value);
     var mkey = parseFloat(mc_select.value);
-    if (mnum >= 19740101 && mnum <= 20040101 && mkey >= 0){
+    if (mnum >= 19750101 && mnum <= 20050101 && mkey >= 0){
         mflag5.style.setProperty('display','block','important');
         mcounting=mcounting+1;
     }
