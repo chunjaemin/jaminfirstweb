@@ -70,7 +70,7 @@ function mno_flag(){
 function mmilitary_army(){
     var mnum=parseInt(mc_inputbox.value);
     var mkey = parseFloat(mc_select.value);
-    if (mnum >= 20040102 && mnum <= 20080101 && mkey >= 0){
+    if (mnum >= 20040102 && mkey >= 0){
         mflag1.style.setProperty('display','block','important');
         mcounting=mcounting+1;
     }
@@ -81,7 +81,7 @@ function mrotc(){
     var mnum=parseInt(mc_inputbox.value);
     var mkey = parseFloat(mc_select.value);
     if (mnum >= 19990302 && mnum <= 20070301 && mkey >= 1 && mkey<=2){
-        mflag2.style.setProperty('display','block','important');4
+        mflag2.style.setProperty('display','block','important');
         mcounting=mcounting+1;
     }
 }
