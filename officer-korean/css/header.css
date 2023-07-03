@@ -139,6 +139,7 @@
     margin:0;
     display:flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .top-menu-mini-empty{
@@ -182,7 +183,7 @@
     float:right;
     width:20%;
     height:100%;
-
+    cursor: pointer;
 }
 
 .c-right-menu:hover{
