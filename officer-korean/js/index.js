@@ -12,6 +12,12 @@ var noflag = document.querySelector('.fade-result-box');
 
 var counting = 0;
 
+//리셋버튼함수
+function reset_button(){
+    c_inputbox.value='';
+    c_select.value=-2;
+}
+
 
 //깃발 전부 삭제하는 함수
 function clear__search(){

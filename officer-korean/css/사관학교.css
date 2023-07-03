@@ -360,3 +360,10 @@
     margin-top: 15%;
     margin-left: 13%;
 }
+
+.background-container{
+    width:100%;
+    aspect-ratio: 2/1;
+    background-image: url('../img/군인1.jpg');
+    background-size: cover;
+}

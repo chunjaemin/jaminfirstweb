@@ -15,7 +15,7 @@ var mcounting = 0;
 var toggle_page = document.querySelector('.fade-result-box')
 
 //리셋버튼함수
-function reset_button(){
+function mreset_button(){
     mc_inputbox.value='';
     mc_select.value=-2;
 }
