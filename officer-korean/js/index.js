@@ -73,7 +73,7 @@ function rotc(){
     var num=parseInt(c_inputbox.value);
     var key = parseFloat(c_select.value);
     if (num >= 19990302 && num <= 20070301 && key >= 1 && key<=2){
-        flag2.style.setProperty('display','block','important');4
+        flag2.style.setProperty('display','block','important');
         counting=counting+1;
     }
 }
