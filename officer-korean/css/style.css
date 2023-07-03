@@ -263,17 +263,6 @@ body{
     font-size: 3.5vw;
 }
 
-.bottom-search{
-    height:100%;
-    aspect-ratio: 1/1;
-    background-color: rgb(212, 210, 210);
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
-    background-image:url('../img/돋보기.jpg');
-    background-size: 100% 100%;
-    filter:brightness(0.8);
-}
-
 
 
 .search-box{
