@@ -1,4 +1,15 @@
+window.onload = function(){
+  menu1=document.querySelector('.content-menu1');
+  menu2=document.querySelector('.content-menu2');
+  menu3=document.querySelector('.content-menu3');
 
+  content1=document.getElementById('content1');
+  content2=document.getElementById('content2');
+  content3=document.getElementById('content3');
+
+  topnavbar=document.getElementById('navbar');
+
+}
 
 
 function visible_click1(){
@@ -34,15 +45,6 @@ function visible_click5(){
   document.querySelector('.invisible5').classList.toggle('none_visible');
 }
 
-menu1=document.querySelector('.content-menu1');
-menu2=document.querySelector('.content-menu2');
-menu3=document.querySelector('.content-menu3');
-
-content1=document.getElementById('content1');
-content2=document.getElementById('content2');
-content3=document.getElementById('content3');
-
-topnavbar=document.getElementById('navbar');
 
 
 window.addEventListener("scroll", (event) => {
