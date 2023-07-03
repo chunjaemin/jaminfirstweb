@@ -379,6 +379,9 @@
     height:100px;
 }
 
+.table4-1-container{
+    background-color: bisque;
+}
 
 .table4-1{
     width:100%;
@@ -393,27 +396,28 @@
 
 
 tr{
-    border: 1px solid black;
     text-align : center;
     vertical-align : middle;
 }
 
 th{
-    border: 1px solid black;
     text-align : center;
     vertical-align : middle;
+    background-color: white;
 }
 
 td{
-    border: 1px solid black;
     text-align : center;
     vertical-align : middle;
+    background-color: white;
 }
 
 .g-green{
-    background-color: #AAC8A7;
+    background-color: #AAC8A7 !important;
+    color: white;
 }
 
 .g-blue{
-    background-color: #1C6DD0 ;
+    background-color: #1C6DD0 !important;
+    color: white;
 }
