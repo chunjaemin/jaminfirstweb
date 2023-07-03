@@ -380,7 +380,7 @@
 }
 
 .table4-1-container{
-    background-color: bisque;
+    background-color: rgb(205, 205, 205);
 }
 
 .table4-1{
@@ -414,12 +414,12 @@ td{
 
 
 .g-green{
-    background-color: #AAC8A7 !important;
+    background-color: #76BA99 !important;
     color: white;
 }
 
 .g-blue{
-    background-color: #1C6DD0 !important;
+    background-color: #161D6F !important;
     color: white;
 }
 
