@@ -436,3 +436,13 @@ td{
 .t4-2-b{
     width: 10%;
 }
+
+.table4-3{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+
+.t4-3-a{
+    width:33%;
+}
