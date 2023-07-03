@@ -379,18 +379,18 @@
     height:100px;
 }
 
-.table4-1-container{
+.table1-1-container{
     background-color: rgb(205, 205, 205);
 }
 
-.table4-1{
+.table1-1{
     width:100%;
     border-collapse: separate;
     border-spacing: 0px 10px;
 }
 
 
-.t4-1{
+.t1-1{
     width:16.6%
 }
 
@@ -423,26 +423,26 @@ td{
     color: white;
 }
 
-.table4-2{
+.table1-2{
     width:100%;
     border-collapse: separate;
     border-spacing: 0px 10px;
 }
 
-.t4-2-a{
+.t1-2-a{
     width:30%;
 }
 
-.t4-2-b{
+.t1-2-b{
     width: 10%;
 }
 
-.table4-3{
+.table1-3{
     width: 100%;
     border-collapse: separate;
     border-spacing: 0px 10px;
 }
 
-.t4-3-a{
+.t1-3-a{
     width:33%;
 }
