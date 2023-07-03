@@ -844,3 +844,11 @@ body{
 .c-blue{
     color:#334ad0
 }
+
+.left-dash-green{
+    border-left:dashed 1px #699b37;
+}
+
+.left-dash-blue{
+    border-left:dashed 1px #254771;
+}
