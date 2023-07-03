@@ -412,6 +412,7 @@ td{
     background-color: white;
 }
 
+
 .g-green{
     background-color: #AAC8A7 !important;
     color: white;
@@ -420,4 +421,18 @@ td{
 .g-blue{
     background-color: #1C6DD0 !important;
     color: white;
+}
+
+.table4-2{
+    width:100%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+
+.t4-2-a{
+    width:30%;
+}
+
+.t4-2-b{
+    width: 10%;
 }
