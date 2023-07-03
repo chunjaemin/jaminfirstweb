@@ -14,6 +14,13 @@ var mcounting = 0;
 
 var toggle_page = document.querySelector('.fade-result-box')
 
+//리셋버튼함수
+function reset_button(){
+    mc_inputbox.value='';
+    mc_select.value=-2;
+}
+
+
 //버튼누르면 페이지 등장
 function open_page(){
     toggle_page.style.setProperty('left','0%','important')
@@ -62,6 +69,8 @@ function mno_flag(){
         mnoflag.style.setProperty('display','flex','important');
     }
 }
+
+
 
 
 
