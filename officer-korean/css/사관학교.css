@@ -390,9 +390,19 @@
 }
 
 
-.t1-1{
-    width:16.6%
+.t1-1-a{
+    width:11.29%;
 }
+
+.t1-1-b{
+    width:16.12%;
+}
+
+
+.t1-1-c{
+    width:24.19%;
+}
+
 
 
 tr{
@@ -445,4 +455,11 @@ td{
 
 .t1-3-a{
     width:33%;
+}
+
+
+.table2-1{
+    width:100%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
 }
