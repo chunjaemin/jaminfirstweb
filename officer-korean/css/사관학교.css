@@ -381,6 +381,8 @@
 
 .table1-1-container{
     background-color: rgb(205, 205, 205);
+    width:100%;
+    height:auto;
 }
 
 .table1-1{
@@ -404,9 +406,6 @@
 }
 
 
-
-tr{
-}
 
 th{
     text-align : center;
