@@ -20,11 +20,9 @@
     top:24.5px;
     right:5px;
     height: 21px;
-    margin-right: 3%;
     aspect-ratio: 1/1;
     background-image: url('../img/메뉴버튼.png');
     background-size: 100% 100%;
-    border:none;
 }
 
 .n-logo-box{
@@ -54,8 +52,7 @@
     height: 90vh;
 }
 
-.n-s-menu1{
-}
+
 
 .n-ss-menu1{
     position: relative;
