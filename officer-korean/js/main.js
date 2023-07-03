@@ -8,16 +8,18 @@ function visible_click() {
 
 function left_fade_function1() {
     var fadebox1 = document.getElementById('fade-box1')
-    var searchbox1 = document.getElementById('mini-search1')
     fadebox1.classList.toggle('fixleft')
-    searchbox1.classList.toggle('imagechange')
 }
+
+
 
 function search_computer() {
     var mini_box = document.getElementById('mini-search-box1');
     mini_box.classList.toggle('fixleft1');
 }
 
+
+//메뉴로직
 window.onload = function() {
     var menu_hide = document.getElementById('mouseover1');
     var menu = document.getElementById('c-right-menu-container')
