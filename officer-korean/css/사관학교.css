@@ -463,6 +463,14 @@ td{
     border-spacing: 0px 10px;
 }
 
+.t2-1-a{
+    width:27.77%
+}
+
+.t2-1-b{
+    width:13.66%;
+}
+
 .table3-1{
     width:100%;
     border-collapse: separate;
@@ -480,3 +488,12 @@ td{
     border-collapse: separate;
     border-spacing: 0px 10px;
 }
+
+.t3-1-a{
+    width:27.77%;
+}
+
+.t3-1-b{
+    width:16.66%;
+}
+
