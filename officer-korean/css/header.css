@@ -18,7 +18,7 @@
 .n-menu{
     position: absolute;
     top:24.5px;
-    right:5px;
+    right:24.5px;
     height: 21px;
     aspect-ratio: 1/1;
     background-image: url('../img/메뉴버튼.png');
