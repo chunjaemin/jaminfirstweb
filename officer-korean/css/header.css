@@ -59,6 +59,11 @@
     background-color: #B1D7B4;
     width: 100%;
     aspect-ratio: 1/0.06;
+    cursor: pointer;
+}
+
+.n-ss-menu1:hover{
+    filter: brightness(0.5);
 }
 
 .n-ss-menu1-p1{
