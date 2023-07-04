@@ -128,15 +128,13 @@
 .top-menu-left-container{
     float: left;
     width: 50%;
-    background-color: rgb(28, 199, 199);
     display: flex;
     justify-content: center;
 }
 
 .top-month-container{
     width:80%;
-    aspect-ratio: 1/1;
-    background-color: aquamarine;
+    aspect-ratio: 1.3/1;
 }
 
 .top-menu-right-container{
@@ -221,21 +219,29 @@
 .swiper{
     width:100%;
     height:100%;
-    border: 1px solid black;
 }
 
 .month-table{
     border: 1px solid black;
-    width:90%;
-    height:60%;
+    width:100%;
+    height:80%;
 }
 
 .month-title{
-    font-size:25px;
+    font-size:2vw;
     font-weight: 700;
 }
 
-.t23{
+.h-t23{
     border: 1px black solid;
+}
+
+.t23{
+    text-align: left;
+    border: 1px black solid;
+}
+
+.red{
+    color:red;
 }
 
