@@ -100,7 +100,7 @@ body{
 .c-1{
     position: relative;
     width:100%;
-    aspect-ratio: 2.5/1;
+    aspect-ratio: 2.4/1;
 }
 
 .b-box-2{
@@ -139,22 +139,22 @@ body{
 
 .m1{
     background-image: url(../img/웹\ 메인메뉴1.png);
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .m2{
     background-image: url(../img/웹\ 메인메뉴2.png);
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .m3{
     background-image: url(../img/웹\ 메인메뉴3.png);
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .m4{
     background-image: url(../img/웹\ 메인메뉴4.png);
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .c-2{
