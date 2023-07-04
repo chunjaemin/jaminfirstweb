@@ -100,7 +100,7 @@ body{
 .c-1{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.5;
+    aspect-ratio: 3/1;
     background-color: #308135;
 }
 
