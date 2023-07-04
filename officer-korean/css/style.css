@@ -676,7 +676,7 @@ body{
 
 .c-search-button{
     position: absolute;
-    top: 80%;
+    bottom:10px;
     left:40%;
     width:17%;
     aspect-ratio: 1/1;
