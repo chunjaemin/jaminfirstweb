@@ -125,6 +125,20 @@
     display:none;
 }
 
+.top-menu-left-container{
+    float: left;
+    width: 50%;
+    background-color: rgb(28, 199, 199);
+    display: flex;
+    justify-content: center;
+}
+
+.top-month-container{
+    width:80%;
+    aspect-ratio: 2/1;
+    background-color: aquamarine;
+}
+
 .top-menu-right-container{
     float:right;
     width:50%;

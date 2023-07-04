@@ -6,6 +6,9 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+
+    <!--스와이프 연결-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -27,7 +30,30 @@
 
     <!-- Navbar End -->
     <div id=mouseover1 class="top-menu-container">
-        <div class="top-menu-left-container"></div>
+        <div class="top-menu-left-container">
+            <div class="top-month-container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+    
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </div>
         <div class="top-menu-right-container">
             <div class="top-menu1">
                 <div class="top-menu-mini" onclick="location.href='사관학교.html'">
@@ -177,5 +203,8 @@
             </div>
         </div>
     </nav>
-    <!-- moblie Navbar End -->    
+    <!-- moblie Navbar End --> 
+    
+    <!--스크립트존-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
