@@ -268,15 +268,14 @@ body{
     left:-100%;
     background-color: white;
     width: 100%;
-    height:100%;
-    z-index: 9999;
+    aspect-ratio: 2/1;
+    z-index: 2;
     transition: 0.5s ease;
-    overflow: scroll;
 }
 
 .search-left{
     width:30%;
-    aspect-ratio: 0.3/0.56;
+    height: 100%;
     background-color: #dedede;
     float: left;
 }
@@ -294,7 +293,7 @@ body{
 .search-right{
     position: relative;
     width:70%;
-    aspect-ratio: 1/0.8;
+    height:100%;
     background-color: #7f9b19;
     background-image: url("../img/군대검색배경1.jpg");
     background-size: cover;
@@ -526,7 +525,6 @@ body{
     border-radius: 50px;
     background-image: url('../img/검색버튼\ .png');
     background-size: 100% 100%;
-    box-shadow: 1px 1px 3px 1px #5b5c5e;
     z-index: 2;
 }
 
@@ -549,7 +547,7 @@ body{
 
 .search-left-top{
     width:100%;
-    aspect-ratio: 1/0.4;
+    height:20%;
     background-image: url('../img/군대배너이미지1.jpg');
     background-size: cover;
     background-position-y: -50px;
@@ -566,7 +564,7 @@ body{
 .search-left-content{
     position: relative;
     width:100%;
-    aspect-ratio:1/1.468;
+    height:80%;
     background-color: #F7F6DC;
 }
 
