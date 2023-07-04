@@ -274,6 +274,7 @@ body{
     height:100%;
     z-index: 9999;
     transition: 0.5s ease;
+    overflow: scroll;
 }
 
 .search-left{
@@ -800,6 +801,7 @@ body{
     width:70%;
     aspect-ratio: 5/1;
 }
+
 
 .left-fade-box{
     position: fixed;
