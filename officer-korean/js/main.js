@@ -1,4 +1,8 @@
 
+function visible_click(){
+    var mobilemenu=document.getElementById('n-button')
+    mobilemenu.classList.toggle('none_visible');
+}
 
 function left_fade_function1() {
     var fadebox1 = document.getElementById('fade-box1')
