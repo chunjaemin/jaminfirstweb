@@ -1,11 +1,5 @@
 
 
-
-function visible_click() {
-    document.getElementById('n-button').classList.toggle('none_visible');
-}
-
-
 function left_fade_function1() {
     var fadebox1 = document.getElementById('fade-box1')
     fadebox1.classList.toggle('fixleft')
@@ -19,10 +13,10 @@ function search_computer() {
 }
 
 
-//메뉴로직
-window.onload = function() {
+  window.onload = function() {
     var menu_hide = document.getElementById('mouseover1');
     var menu = document.getElementById('c-right-menu-container')
+
     menu.addEventListener('mouseover', function () {
         menu_hide.style.setProperty('display', 'block', 'important');
     });

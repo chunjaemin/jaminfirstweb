@@ -189,6 +189,9 @@
     width:20%;
     height:100%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-right-menu:hover{
@@ -196,8 +199,8 @@
 }
 
 .c-right-menu-p{
-    margin-top: 29px;
-    font-size:12px;
+    margin: 0;
+    font-size:18px;
     font-weight: 700;
 }
 
