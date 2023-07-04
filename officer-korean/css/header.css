@@ -135,7 +135,7 @@
 
 .top-month-container{
     width:80%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 1/1;
     background-color: aquamarine;
 }
 
@@ -221,4 +221,21 @@
 .swiper{
     width:100%;
     height:100%;
+    border: 1px solid black;
 }
+
+.month-table{
+    border: 1px solid black;
+    width:90%;
+    height:60%;
+}
+
+.month-title{
+    font-size:25px;
+    font-weight: 700;
+}
+
+.t23{
+    border: 1px black solid;
+}
+

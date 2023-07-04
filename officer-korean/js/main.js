@@ -17,9 +17,20 @@ function search_computer() {
 }
 
 
-  window.onload = function() {
+window.onload = function () {
     var menu_hide = document.getElementById('mouseover1');
     var menu = document.getElementById('c-right-menu-container')
+
+
+    document.querySelectorAll('.darkstart').forEach(function (box) {
+        box.addEventListener('touchstart', function () {
+            box.classList.toggle('dark');
+        });
+        box.addEventListener('touchend', function () {
+            box.classList.toggle('dark');
+        });
+    });
+    
 
     menu.addEventListener('mouseover', function () {
         menu_hide.style.setProperty('display', 'block', 'important');
@@ -37,37 +48,28 @@ function search_computer() {
         menu_hide.style.setProperty('display', 'none', 'important');
     });
 
+    //스와이퍼 기능
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
 
-    document.querySelectorAll('.darkstart').forEach(function (box) {
-        box.addEventListener('touchstart', function () {
-            box.classList.toggle('dark');
-        });
-        box.addEventListener('touchend', function () {
-            box.classList.toggle('dark');
-        });
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
     });
+
   };
 
-
-  //스와이퍼 기능
-  const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
