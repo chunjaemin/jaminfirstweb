@@ -686,6 +686,34 @@ td{
     background-size:cover;
 }
 
+.c-special-smallcontent1:hover{
+    filter: brightness(0.5);
+}
+
+.c-special-smallcontent2:hover{
+    filter: brightness(0.5);
+}
+
+
+.c-special-smallcontent3:hover{
+    filter: brightness(0.5);
+}
+
+.c-special-smallcontent4:hover{
+    filter: brightness(0.5);
+}
+
+.c-special-smallcontent5:hover{
+    filter: brightness(0.5);
+}
+
+
+.c-special-smallcontent6:hover{
+    filter: brightness(0.5);
+}
+
+
+
 .c-special-content1-p1{
     position: absolute;
     font-size:2.5vw;
