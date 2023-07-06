@@ -727,3 +727,17 @@ td{
     right:5px;
     top:5px;
 }
+
+.c-special-content1-p1-m{
+    position: absolute;
+    font-size:2.5vh;
+    left:5px;
+    top:5px;
+}
+
+.c-special-content1-p2-m{
+    position: absolute;
+    font-size:2.5vh;
+    left:5px;
+    bottom:5px;
+}
