@@ -517,6 +517,11 @@ td{
     width:15%;
 }
 
+.special-top-empty-box{
+    width:100%;
+    height:70px;
+}
+
 .special-main-container{
     width:100%;
     height:auto;
@@ -546,6 +551,7 @@ td{
     width:50%;
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관1.png');
+    background-size:cover;
 }
 
 .special-main-content1-2{
@@ -553,6 +559,7 @@ td{
     height:100%;
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관2.png');
+    background-size:cover;
 }
 
 .special-main-content2-1{
@@ -560,12 +567,14 @@ td{
     height:100%;
     aspect-ratio: 2/1;
     background-image: url('../img/특별임관3.png');
+    background-size:cover;
 }
 
 .special-main-content3-left{
     width:50%;
     aspect-ratio: 1/2;
     background-image: url('../img/특별임관4.png');
+    background-size:cover;
 }
 
 .special-main-content3-right{
@@ -579,10 +588,88 @@ td{
     width:100%;
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관5.png');
+    background-size:cover;
 }
 
 .special-main-content3-right-2{
     width:100%;
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관6.png');
+    background-size:cover;
+}
+
+.c-special-bigcontainer{
+    width:100%;
+    aspect-ratio: 2/1;
+    display: flex;
+}
+
+.c-special-smallcontainer1{
+    width:50%;
+    height:auto;
+}
+
+.c-special-smallcontainer2{
+    width:50%;
+    height:auto;
+    display: flex;
+}
+
+.c-special-smallcontiner1-1{
+    width:100%;
+    display:flex;
+}
+
+.c-special-smallcontiner1-2{
+    width:100%;
+}
+
+.c-special-smallcontiner2-1{
+    width:50%;
+}
+
+.c-special-smallcontiner2-2{
+    width:50%;
+}
+
+.c-special-smallcontent1{
+    width:50%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/특별임관1.png');
+    background-size:cover;
+}
+
+.c-special-smallcontent2{
+    width:50%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/특별임관2.png');
+    background-size:cover;
+}
+
+.c-special-smallcontent3{
+    width:100%;
+    aspect-ratio: 2/1;
+    background-image: url('../img/특별임관3.png');
+    background-size:cover;
+}
+
+.c-special-smallcontent4{
+    width:100%;
+    aspect-ratio: 1/2;
+    background-image: url('../img/특별임관4.png');
+    background-size:cover;
+}
+
+.c-special-smallcontent5{
+    width:100%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/특별임관5.png');
+    background-size:cover;
+}
+
+.c-special-smallcontent6{
+    width:100%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/특별임관6.png');
+    background-size:cover;
 }
