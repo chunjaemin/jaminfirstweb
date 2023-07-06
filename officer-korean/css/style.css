@@ -542,7 +542,7 @@ body{
 .fixleft1{
     position: fixed;
     left:0% !important;
-    transition: 5s;
+    transition: 1s;
 }
 
 .search-left-top{
