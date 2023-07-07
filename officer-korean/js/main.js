@@ -61,8 +61,8 @@ window.onload = function () {
 
         // Navigation arrows
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.swipe-button-next',
+            prevEl: '.swipe-button-prev',
         },
 
         // And if we need scrollbar
