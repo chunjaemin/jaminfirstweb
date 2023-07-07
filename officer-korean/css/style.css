@@ -588,7 +588,7 @@ body{
 }
 
 .flag1{
-    width:33%;
+    width:25%;
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(사관학교\).png');
     background-size: 100% 100%;
@@ -596,7 +596,7 @@ body{
 }
 
 .flag2{
-    width:33%;
+    width:25%;
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(학군사관\).png');
     background-size: 100% 100%;
@@ -604,7 +604,7 @@ body{
 }
 
 .flag3{
-    width:33%;
+    width:25%;
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(학사장교\).png');
     background-size: 100% 100%;
@@ -612,7 +612,7 @@ body{
 }
 
 .flag4{
-    width:33%;
+    width:25%;
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(지원금\).png');
     background-size: 100% 100%;
@@ -620,7 +620,7 @@ body{
 }
 
 .flag5{
-    width:33%;
+    width:25%;
     aspect-ratio: 1/1;
     background-image: url('../img/플래그\(조종준사관\).png');
     background-size: 100% 100%;
