@@ -644,6 +644,7 @@ td{
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관1.png');
     background-size:cover;
+    overflow:hidden;
 }
 
 .c-special-smallcontent2{
@@ -652,6 +653,7 @@ td{
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관2.png');
     background-size:cover;
+    overflow:hidden;
 }
 
 .c-special-smallcontent3{
@@ -660,6 +662,7 @@ td{
     aspect-ratio: 2/1;
     background-image: url('../img/특별임관3.png');
     background-size:cover;
+    overflow:hidden;
 }
 
 .c-special-smallcontent4{
@@ -668,6 +671,7 @@ td{
     aspect-ratio: 1/2;
     background-image: url('../img/특별임관4.png');
     background-size:cover;
+    overflow:hidden;
 }
 
 .c-special-smallcontent5{
@@ -676,6 +680,7 @@ td{
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관5.png');
     background-size:cover;
+    overflow:hidden;
 }
 
 .c-special-smallcontent6{
@@ -684,6 +689,7 @@ td{
     aspect-ratio: 1/1;
     background-image: url('../img/특별임관6.png');
     background-size:cover;
+    overflow:hidden;
 }
 
 .c-special-smallcontent1:hover{
@@ -741,4 +747,22 @@ td{
     left:5px;
     bottom:5px;
     margin: 0%;
+}
+
+.c-special-p{
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top:100%;
+    left:0%;
+    font-size:2vw;
+    color:white;
+    transition:0.5s;
+}
+
+.up-box:hover .c-special-p{
+    position: absolute;
+    top:40%;
+    left:0%;
+    font-size:3vw;
 }
