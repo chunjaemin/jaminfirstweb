@@ -19,7 +19,7 @@ function search_computer() {
 
 window.onload = function () {
     var menu_hide = document.getElementById('mouseover1');
-    var menu = document.getElementById('c-right-menu-container')
+    var menu = document.getElementById('c-top-menu')
 
 
     document.querySelectorAll('.darkstart').forEach(function (box) {
