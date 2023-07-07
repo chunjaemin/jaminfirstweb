@@ -131,8 +131,8 @@ body{
 .b-menu{
     position: absolute;
     top:40%;
-    left:22.5%;
-    font-size: 4vw;
+    left:30%;
+    font-size: 3vw;
     font-weight: 700;
     z-index: 1;
 }
