@@ -274,7 +274,7 @@ body{
 }
 
 .search-left{
-    width:30%;
+    width:25%;
     height: 100%;
     background-color: #dedede;
     float: left;
@@ -292,7 +292,7 @@ body{
 
 .search-right{
     position: relative;
-    width:70%;
+    width:75%;
     height:100%;
     background-color: #7f9b19;
     background-image: url("../img/군대검색배경1.jpg");
@@ -721,13 +721,13 @@ body{
 
 .search-left-content-p1{
     text-align: center;
-    font-size:3vw;
+    font-size:2vw;
     font-weight: 700;
 }
 
 .search-left-content-p2{
     position:absolute;
-    top:23%;
+    top:18%;
     left:15%;
     font-size:2vw;
     font-weight: 700;
@@ -735,7 +735,7 @@ body{
 
 .search-left-content-p3{
     position:absolute;
-    top:53%;
+    top:48%;
     left:15%;
     font-size:2vw;
     font-weight: 700;
@@ -765,7 +765,7 @@ body{
 
 .search-input-box{
     position: absolute;
-    top:30%;
+    top:25%;
     left:15%;
     width:70%;
     aspect-ratio: 5/1;
@@ -781,7 +781,7 @@ body{
 
 .c-select{
     position: absolute;
-    top:60%;
+    top:55%;
     left:15%;
     width:70%;
     aspect-ratio: 5/1;
