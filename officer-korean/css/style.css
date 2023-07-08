@@ -67,14 +67,16 @@ body{
 }
 
 .banner-p1-m{
-    position: absolute;
+    float: left;
+    margin: 0;
     left: 15px;
     font-size:2vh;
     font-weight: 700;
 }
 
 .banner-p2-m{
-    position: absolute;
+    float: right;
+    margin: 0;
     right: 15px;
     font-size:2vh;
     font-weight: 700;

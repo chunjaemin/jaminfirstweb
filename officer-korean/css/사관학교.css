@@ -766,3 +766,34 @@ td{
     left:0%;
     font-size:3vw;
 }
+
+.banner-top-box{
+    position: fixed;
+    top:70px;
+    left:0;
+    width:100%;
+    height:auto;
+    background-color: rgba(0,0,0,0.5);
+    z-index:0;
+}
+
+
+.table1-1-m{
+    width:100%;
+}
+
+.t1-1-m-a{
+    width:10%;
+}
+
+.t1-1-m-b{
+    width:20%;
+}
+
+.t1-1-m-c{
+    width:70%;
+}
+
+.bg-green{
+    background-color:darkseagreen;
+}
