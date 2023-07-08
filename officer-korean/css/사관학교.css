@@ -800,16 +800,19 @@ td{
 }
 
 .bg-green{
+    width:25px;
     background-color:  #5bb388;
     color:white;
 }
 
 .bg-blue{
+    width:25px;
     background-color:#254771;
     color:white;
 }
 
 .bg-gray{
+    width:25px;
     background-color: rgb(238, 236, 236);
 }
 
@@ -819,4 +822,12 @@ td{
 
 .border-bottom-dashed{
     border-bottom: 1px black dashed;
+}
+
+.s-table{
+    width:100%;
+}
+
+.s-t{
+    width:33%;
 }
