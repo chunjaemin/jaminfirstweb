@@ -777,9 +777,14 @@ td{
     z-index:0;
 }
 
+.main-box-m{
+    background-image: url(../img/군인2.jpg);
+}
 
 .table1-1-m{
     width:100%;
+    border-collapse: separate;
+    border-spacing: 0px 1px;
 }
 
 .t1-1-m-a{
@@ -810,4 +815,8 @@ td{
 
 .text-left{
     text-align: left;
+}
+
+.border-bottom-dashed{
+    border-bottom: 1px black dashed;
 }
