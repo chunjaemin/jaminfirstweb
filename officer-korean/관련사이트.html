@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>THE OFFICER</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 상단메뉴바 링크-->
+    <link href="css/header.css" rel="stylesheet">
+
+    <!-- 상단메뉴바 링크-->
+    <link href="css/사관학교.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Header, Footer 삽입용 스크립트 -->
+    <script src="js/includeHTML.js"></script>
+</head>
+
+<body>
+    <!-- Header, Footer 스크립트 호출 -->
+    <div include-html="header.html"></div>
+    <script>includeHTML();</script>
+
+    <!--배너이미지-->
+    <div class="d-md-none banner-empty-box"></div>
+    <div id=navbar class="d-none d-md-block ">
+        <div class="banner-head">
+            <p class="banner-p1 text-white">Related Sites</p>
+            <p class="banner-p2 text-white">관련사이트</p>
+        </div>
+    </div>
+
+    <div id=navbar class="d-md-none">
+        <div class="banner-head-m">
+            <div class="banner-top-box">
+                <p class="banner-p1-m text-white">Related Sites</p>
+                <p class="banner-p2-m text-white">관련사이트</p>
+            </div>
+        </div>
+    </div>
+    <!--배너이미지-->
+
+
+    <!--컨텐츠메뉴-->
+    <!--모바일-->
+    <div class="d-md-none">
+        <!--서브메뉴창-->
+        <div class="content-menu1 darkstart" onclick="visible_click1()">
+            <p class="menu-title">군관련</p>
+        </div>
+        <div id="content1" class="content-menu-content1 invisible1">
+            <div class="main-box-m d-md-none">
+               <div class="related1-container">
+                    <div class="related1-content">
+                        <a href="">국방부</a>
+                    </div>
+                    <div class="related1-content">
+                        <a href="">육군</a>
+                    </div>
+                    <div class="related1-content">
+                        <a href="">해군</a>
+                    </div>
+                    <div class="related1-content">
+                        <a href="">공군</a>
+                    </div>
+                    <div class="related1-content">
+                        <a href="">병무청</a>
+                    </div>           
+               </div>
+            </div>
+        </div>
+    
+        <div class="content-menu2 darkstart" onclick="visible_click2()">
+            <p class="menu-title">모집</p>
+        </div>
+        <div id="content2" class="content-menu-content2 invisible2">
+            <div class="main-box-m d-md-none">
+                <div class="related1-container">
+                    <a href="">육군모집</a>
+                    <a href="">해군모집</a>
+                    <a href="">공군모집</a>            
+               </div>
+            </div>
+        </div>
+    
+        <div class="content-menu3 darkstart" onclick="visible_click3()">
+            <p class="menu-title">교육기관</p>
+        </div>
+        <div id="content3" class="content-menu-content3 invisible3">
+            <div class="main-box-m d-md-none">
+            </div>
+        </div>
+    </div>
+    
+    <div id="fade-box1" class="left-fade-box d-md-none">
+        <div class="search-left-m">
+            <div class="search-left-top-m">
+                <p class="copyright2">[이미지 출처] 육군, 해군, 공군 홈페이지</p>
+            </div>
+            <div class="search-left-content-m">
+                <p class="search-left-content-p1-m text-black">간편 검색기</p>
+
+                
+                <p class="search-left-content-p2-m text-black">생년월일</p>
+                <input id='c-inputbox-m'  class="search-input-box-m" type="text" maxlength="8" placeholder="생년월일 8자리">
+
+                <p class="search-left-content-p3-m text-black">학력</p>
+                <select id="c-select1-m" class="c-select-m">
+                    <option value='-2' disabled selected>학력</option>
+                    <option value="-1">고등학교 재학 중</option>
+                    <option value="0">고등학교 졸업(예정)</option>
+                    <option value="1">4(5)년제 1(2)학년 </option>
+                    <option value="2">4(5)년제 2(3)학년 </option>
+                    <option value="3">4(5)년제 3(4)학년 </option>
+                    <option value="5">4(5)년제 졸업(예정)</option>
+                </select>
+            </div>
+            <div class="c-search-button-m1 darkstart" onclick="mc_select_search()"></div>
+            <div class="c-search-button-m2 darkstart" onclick="left_fade_function1()"></div>
+            <div class="c-search-button-m3 darkstart" onclick="mreset_button()"></div>
+        </div>
+    </div>
+
+    <!--모바일 검색결과창-->
+    <div class="fade-result-box d-md-none">
+        <div class="white-filter"></div>
+        <div class="no-flag-box-m">
+            <div class="penta-m"></div>
+            <p class="penta-p-m">지원가능한 곳이 없습니다.</p>
+        </div>
+        <div class="fade-result-content">
+            <div class="flag1-m"></div>
+            <div class="flag2-m"></div> 
+            <div class="flag3-m"></div> 
+            <div class="flag4-m"></div> 
+            <div class="flag5-m"></div> 
+        </div>
+        <div class="back-button" onclick="close_page()"></div>
+    </div>
+
+    <div id=mini-search1 class="mini-search d-md-none darkstart" onclick="left_fade_function1()"></div>
+    <!--모바일 끝-->
+
+    
+
+    <!--하단바-->
+    <div class="bottom-fixed-bar d-none d-md-block">
+        <div class="bottom-left-menu"></div>
+        <div class="bottom-menu">
+            <p class="bottom-word">대우및특전</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">임관병과</p>
+        </div>
+        <div class="bottom-menu">
+            <p class="bottom-word">지원정보</p>
+        </div>
+    </div>
+
+    <!--컴퓨터버전 검색창-->
+    <div class="d-none d-md-block">
+        <div id="mini-search-box1" class="search-box">
+            <div class="search-left">
+                <div class="search-left-top">
+                    <p class="copyright2">[이미지 출처] 육군, 해군, 공군 홈페이지</p>
+                </div>
+                <div class="search-left-content">
+                    <p class="search-left-content-p1 text-black">간편 검색기</p>
+
+                    
+                    <p class="search-left-content-p2 text-black">생년월일</p>
+                    <input id='c-inputbox'  class="search-input-box" type="text" maxlength="8" placeholder="생년월일 8자리">
+
+                    <p class="search-left-content-p3 text-black">학력</p>
+                    <select id="c-select1" class="c-select">
+                        <option value='-2' disabled selected>학력</option>
+                        <option value="-1">고등학교 재학 중</option>
+                        <option value="0">고등학교 졸업(예정)</option>
+                        <option value="1">4(5)년제 1(2)학년 </option>
+                        <option value="2">4(5)년제 2(3)학년 </option>
+                        <option value="3">4(5)년제 3(4)학년 </option>
+                        <option value="5">4(5)년제 졸업(예정)</option>
+                    </select>
+
+                    <div class="c-search-button" onclick="c_select_search()"></div>
+                </div>
+            </div>
+            <div class="search-right">
+
+                <div class="no-flag-box">
+                    <div class="penta"></div>
+                    <p class="penta-p">지원가능한 곳이 없습니다.</p>
+                </div>
+                <div class="search-right-container">
+                   <div class="flag1"></div>
+                   <div class="flag2"></div> 
+                   <div class="flag3"></div> 
+                   <div class="flag4"></div> 
+                   <div class="flag5"></div> 
+                </div>
+                <div class="x-button-right" onclick="search_computer()"></div>
+                <div class="x-button-left" onclick="reset_button()"></div>
+            </div>
+            <div class="fade-bottom-empty-box"></div>
+        </div>
+    </div>
+    <!--컴퓨터 검색끝-->
+
+
+    <!--컴퓨터버전-->
+    <div class="table1-1-container d-none d-md-block">
+        <table class="table1-1">
+            <tr>
+                <th class="t1-1-a"></th>
+                <th class="t1-1-b g-green">육군</th>
+                <th class="t1-1-b">해군</th>
+                <th class="t1-1-b g-blue">공군</th>
+                <th class="t1-1-b">국군간호</th>
+                <th class="t1-1-c g-green">육군3사관</th>
+            </tr>
+            <tr>
+                <td class="g-green">지원자격</td>
+                <td class="tg-0lax" colspan="4">
+                    17세 이상 21세 미만의 미혼인 자 중<br>
+                    고등학교 졸업 예정 이상의 학력을 보유한 자<br>
+                    <span class="c-blue">*입학일 기준</span>
+                </td>
+                <td class="tg-0lax left-dash-green">
+                    19세 이상 25세 미만의 미혼인 자 중<br>
+                    전문대학 졸업 예정 또는
+                    4년제 대학교 2년 수료 이상의
+                    학력을 보유한 자<br>
+                    <span class="c-blue">*입학일 기준</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="g-green">모집시기</td>
+                <td class="tg-0lax" colspan="5">6월경</td>
+            </tr>
+            <tr>
+                <td class="g-green">의무복무기간</td>
+                <td class="tg-0lax" colspan="4">
+                    10년<br>
+                    <span class="c-blue">*임관 후 5년차 전역기회 부여</span>
+                </td>
+                <td class="tg-0lax left-dash-green" colspan="1">6년</td>
+            </tr>
+            <tr>
+                <td class="g-green">선발시험</td>
+                <td class="tg-0lax" colspan="5">
+                    1차 : 국어, 영어, 수학 필기시험<br>
+                    2차 : 면접시험, 체력검정, 신체검사
+                </td>
+            </tr>
+            <tr>
+                <td class="g-green">지원서접수</td>
+                <td class="tg-0lax" colspan="5">
+                    <a href="https://www.uwayapply.com/" target="_blank">
+                        유웨이 어플라이[링크]
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="g-green">안내및문의</td>
+                <td class="tg-0lax">
+                    <a href="https://www.kma.ac.kr:461/" target="_blank">
+                        육군사관학교 홈페이지[링크]
+                    </a>
+                </td>
+                <td class="tg-0lax left-dash-green">
+                    <a href="https://www.navy.ac.kr:10001/index.jsp" target="_blank">
+                        해군사관학교 홈페이지[링크]
+                    </a>
+                </td>
+                <td class="tg-0lax left-dash-blue">
+                    <a href="https://rokaf.airforce.mil.kr/afa/index.do" target="_blank">
+                        공군사관학교 홈페이지[링크]
+                    </a>
+                </td>
+                <td class="tg-0lax left-dash-blue">
+                    <a href="https://www.kafna.ac.kr/user/afna/enterintro/intro.html" target="_blank">
+                        국군간호사관학교 홈페이지[링크]
+                    </a>
+                </td>
+                <td class="tg-0lax left-dash-green">
+                    <a href="https://www.kaay.mil.kr:458/" target="_blank">
+                        육군3사관학교 홈페이지[링크]
+                    </a>
+                </td>
+            </tr>
+        </table>
+    
+        <table class="table1-2">
+            <tr>
+                <th class="g-green t1-2-a">육군</th>
+                <th class="t1-2-a">해군</th>
+                <th class="g-blue t1-2-a">공군</th>
+                <th class="t1-2-b">국군간호</th>
+            </tr>
+            <tr>
+                <td class="g-green t1-2-a">
+                    [전투병과]<br>
+                    보병 포병 기갑 방공<br>
+                    정보 공병 정보통신 항공<br>
+                    [기술병과]<br>
+                    화생방 병기 병참 수송<br>
+                    [행정병과]<br>
+                    인사 군사경찰 재정 공보정훈
+                </td>
+                <td class="tg-0pky t1-2-a">
+                    함정 항공 정보 정보통신 병기 보급<br>
+                    공병 조함 재정 공보정훈 군사경찰<br>
+                    <a href="https://www.navy.mil.kr/mbshome/mbs/navy/subview.do?id=navy_050101010000" target="_blank">
+                        해군장교 병과소개[링크]
+                    </a>
+                </td>
+                <td class="g-blue t1-2-a">
+                    [전투병과]<br>
+                    조종 운항관제 항공통제 방공포병<br>
+                    [기술전문병과]<br> 
+                    기상 정보통신 항공무기정비<br>
+                    보급수송 공병 재정 인사교육<br>
+                    공보정훈 정보 군사경찰<br>
+                    [특수병과]<br> 
+                    법무 군종 의무
+                </td>
+                <td class="t4-2-b">의무</td>
+            </tr>
+        </table>
+
+        <table class="table1-3">
+            <tr>
+                <td class="g-green t1-3-a">육군</td>
+                <td class="t1-3-a">해군</td>
+                <td class="g-blue t1-3-a">공군</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    국내외 교육지원 혜택<br>
+                    의료 진료혜택 부여<br>
+                    자녀교육 지원<br>
+                    간부 숙소 제공
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--왼쪽하단 검색버튼-->
+    <div class="c-fade-search d-none d-md-block" onclick="search_computer()"></div>
+
+    <div class="bottom-empty-box"></div>
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/menucontent.js"></script>
+    <script src="js/mobileindex.js"></script>
+</body>
+
+</html>

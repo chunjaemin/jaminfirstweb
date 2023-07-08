@@ -882,3 +882,18 @@ body{
     background-color: white;
 }
 
+.related1-container{
+    width:100%;
+    aspect-ratio: 10/1;
+    display:flex;
+    background-color: white;
+}
+
+.related1-content{
+    width:20%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:2vh;
+}
