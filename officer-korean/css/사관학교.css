@@ -629,6 +629,7 @@ td{
     width:100%;
     aspect-ratio: 2/1;
     display: flex;
+    cursor: pointer;
 }
 
 .c-special-smallcontainer1{
@@ -774,16 +775,17 @@ td{
     width:100%;
     text-align: center;
     position: absolute;
-    top:100%;
+    top:40%;
     left:0%;
     font-size:3vw;
+    font-weight:700;
     color:white;
     transition:0.5s;
 }
 
 .up-box:hover .c-special-p{
     position: absolute;
-    top:40%;
+    top:36%;
     left:0%;
     font-size:3vw;
 }
