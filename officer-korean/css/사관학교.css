@@ -385,6 +385,12 @@
     height:auto;
 }
 
+.relate-container{
+    background-color: rgb(207, 201, 201);
+    width:100%;
+    height:auto;
+}
+
 .table1-1{
     width:100%;
     border-collapse: separate;
@@ -897,6 +903,8 @@ td{
 
 .related-table1{
     width:100%;
+    border-collapse: separate;
+    border-spacing: 0px 5px;
 }
 
 .r-t1-a{
