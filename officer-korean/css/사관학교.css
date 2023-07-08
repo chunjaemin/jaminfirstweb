@@ -863,3 +863,14 @@ td{
     background-color: #254771;
     color:white;
 }
+
+.table1-3-m{
+    width:100%;
+    border-collapse: separate;
+    border-spacing: 0px 1px;
+}
+
+.bottom-emptybox-m{
+    width: 100%;
+    aspect-ratio: 1/3;
+}
