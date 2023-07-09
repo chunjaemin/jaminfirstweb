@@ -267,6 +267,16 @@ body{
     justify-content: center;
 }
 
+.bottom-menu4{
+    position:relative;
+    float:right;
+    height:100%;
+    width:13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-menu1:hover{
     background-color: #699b37;
@@ -280,6 +290,9 @@ body{
     background-color: #699b37;
 }
 
+.bottom-menu4:hover{
+    background-color: #699b37;
+}
 
 .bottom-word{
     margin: 0%;
