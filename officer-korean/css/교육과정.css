@@ -13,7 +13,7 @@
 
 .learn-container{
     width:100%;
-    aspect-ratio: 1/0.6;
+    aspect-ratio: 1/0.5;
     background-color: bisque;
     display: flex;
 }
@@ -30,6 +30,7 @@
     top:10%;
     left:10%;
     width:80%;
+    aspect-ratio: 8/1;
 }
 
 .l-select2{
@@ -37,7 +38,7 @@
     top:30%;
     left:10%;
     width:80%;
-    aspect-ratio: 10/1;
+    aspect-ratio: 8/1;
 }
 
 .l-select3{
@@ -46,17 +47,20 @@
     top:30%;
     left:10%;
     width:80%;
-    aspect-ratio: 10/1;
+    aspect-ratio: 8/1;
 }
 
 
 .select-button{
     position: relative;
     margin-top: 130%;
-    margin-left: 15%;
+    margin-left: 40%;
     background-color: aliceblue;
-    width: 70%;
-    aspect-ratio: 2/1;
+    width: 20%;
+    aspect-ratio: 1/1;
+    background-image: url('../img/검색버튼\ .png');
+    background-size: 100% 100%;
+    border-radius: 50%;
 }
 
 .select-p1{
