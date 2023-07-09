@@ -629,6 +629,26 @@ body{
     display: none;
 }
 
+.flag1:hover{
+    filter:brightness(0.5);
+}
+
+.flag2:hover{
+    filter:brightness(0.5);
+}
+
+.flag3:hover{
+    filter:brightness(0.5);
+}
+
+.flag4:hover{
+    filter:brightness(0.5);
+}
+
+.flag5:hover{
+    filter:brightness(0.5);
+}
+
 .flag1-m{
     width:28%;
     aspect-ratio: 1/1;
