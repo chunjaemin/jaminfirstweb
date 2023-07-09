@@ -993,3 +993,18 @@ body{
     aspect-ratio: 13/1;
     text-align: center;
 }
+
+.study-table1{
+    width:100%;
+    display: none;
+}
+
+.study-table2{
+    width:100%;
+    display: none;
+}
+
+.study-table3{
+    width:100%;
+    display: none;
+}
