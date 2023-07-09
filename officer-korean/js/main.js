@@ -1,4 +1,8 @@
 
+function visible_click(){
+    var mobilemenu=document.getElementById('n-button')
+    mobilemenu.classList.toggle('none_visible');
+}
 
 window.onload = function () {
     var menu_hide = document.getElementById('mouseover1');
