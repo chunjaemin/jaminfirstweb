@@ -47,29 +47,5 @@ window.onload = function () {
     menu_hide.addEventListener('mouseout', function () {
         menu_hide.style.setProperty('display', 'none', 'important');
     });
-
-    //스와이퍼 기능
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swipe-button-next',
-            prevEl: '.swipe-button-prev',
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
-    });
-
   };
 
