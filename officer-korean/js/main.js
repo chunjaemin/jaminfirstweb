@@ -35,7 +35,7 @@ window.onload = function () {
     menu.addEventListener('mouseover', function () {
         menu_hide.style.setProperty('display', 'block', 'important');
     });
-
+    
     menu.addEventListener('mouseout', function () {
         menu_hide.style.setProperty('display', 'none', 'important');
     });
