@@ -357,6 +357,14 @@ body{
     border-radius: 50%;
 }
 
+.x-button-right:hover{
+    filter:brightness(0.5);
+}
+
+.x-button-left:hover{
+    filter:brightness(0.5);
+}
+
 .no-flag-box{
     position: absolute;
     top:0;
@@ -735,6 +743,10 @@ body{
     border-radius: 50%;
     background-image: url('../img/검색버튼\ .png');
     background-size: 100% 100%;
+}
+
+.c-search-button:hover{
+    filter: brightness(0.5);
 }
 
 .c-search-button-m1{
