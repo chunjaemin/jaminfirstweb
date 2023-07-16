@@ -795,6 +795,16 @@ td{
     font-weight:700;
 }
 
+.c-banner-top-box{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    aspect-ratio: 32/1;
+    background-color: rgba(0,0,0,0.5);
+    z-index:0;
+}
+
 .banner-top-box{
     position: fixed;
     top:70px;
