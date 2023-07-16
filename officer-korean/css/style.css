@@ -34,7 +34,7 @@ body{
 .banner-head{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.4;
+    aspect-ratio: 1/0.25;
     background-image: url('../img/군인2.jpg');
     background-size: cover;
     background-position-y: -100px;
@@ -46,6 +46,108 @@ body{
     width:100%;
     aspect-ratio: 1/0.4;
     background-image: url('../img/군인2.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+.banner-head1{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/사관생도\ 앱배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head1-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/사관생도\ 앱배너.png');
+    background-size: cover;
+    display: flex;
+}
+
+
+/**학군사관**/
+.banner-head2{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/군인2.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head2-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/군인2.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+
+/**학사사관**/
+.banner-head3{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/학사사관\ 앱배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head3-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/학사사관\ 앱배너.png');
+    background-size: cover;
+    display: flex;
+}
+
+
+/**군가산복무**/
+.banner-head4{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/군가산복무\ 앱배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head4-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/군가산복무\ 앱배너.png');
+    background-size: cover;
+    display: flex;
+}
+
+/**회전익**/
+.banner-head5{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/회전익\ 앱배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head5-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/회전익\ 앱배너.png');
     background-size: cover;
     display: flex;
 }
