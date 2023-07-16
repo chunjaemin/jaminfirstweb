@@ -288,6 +288,13 @@ body{
     filter: brightness(0.7);
 }
 
+.main-menu:hover .mainmenu-black-filter{
+    filter: brightness(0.7);
+    position: absolute;
+    top:35%;
+    left: 0%;
+}
+
 .mainmenu-black-filter{
     position: absolute;
     left:0%;
@@ -298,6 +305,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .dark{
