@@ -53,10 +53,9 @@ body{
 .banner-head1{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/사관생도\ 앱배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/사관생도\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -74,10 +73,9 @@ body{
 .banner-head2{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/군인2.jpg');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/학군사관\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -85,7 +83,7 @@ body{
     position: relative;
     width:100%;
     aspect-ratio: 1/0.4;
-    background-image: url('../img/군인2.jpg');
+    background-image: url('../img/학군사관\ 앱배너.png');
     background-size: cover;
     display: flex;
 }
@@ -95,10 +93,9 @@ body{
 .banner-head3{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/학사사관\ 앱배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/학사사관\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -116,10 +113,9 @@ body{
 .banner-head4{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/군가산복무\ 앱배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/군가산복무\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -136,10 +132,9 @@ body{
 .banner-head5{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/회전익\ 앱배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/회전익\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -156,10 +151,9 @@ body{
 .banner-head6{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/관련사이트\ 배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/관련사이트\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -176,10 +170,9 @@ body{
 .banner-head7{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/해군협약\ 배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/해군협약\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
@@ -196,10 +189,9 @@ body{
 .banner-head8{
     position: relative;
     width:100%;
-    aspect-ratio: 1/0.25;
-    background-image: url('../img/국군간호사관\ 앱배너.png');
+    aspect-ratio: 4.9/1;
+    background-image: url('../img/국군간호사관\ 웹배너.png');
     background-size: cover;
-    background-position-y: -100px;
     display: flex;
 }
 
