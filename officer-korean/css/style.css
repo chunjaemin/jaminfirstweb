@@ -152,6 +152,66 @@ body{
     display: flex;
 }
 
+/**관련사이트**/
+.banner-head6{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/관련사이트\ 배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head6-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/관련사이트\ 배너.png');
+    background-size: cover;
+    display: flex;
+}
+
+/**해군협약**/
+.banner-head7{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/해군협약\ 배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head7-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/해군협약\ 배너.png');
+    background-size: cover;
+    display: flex;
+}
+
+/**교육과정**/
+.banner-head8{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.25;
+    background-image: url('../img/국군간호사관\ 앱배너.png');
+    background-size: cover;
+    background-position-y: -100px;
+    display: flex;
+}
+
+.banner-head8-m{
+    position: relative;
+    width:100%;
+    aspect-ratio: 1/0.4;
+    background-image: url('../img/국군간호사관\ 앱배너.png');
+    background-size: cover;
+    display: flex;
+}
+
 .banner-p1{
     position: absolute;
     top: 0;
